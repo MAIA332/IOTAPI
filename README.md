@@ -1,2 +1,2 @@
-# IOTAPI
-IOT API para integrações em arduino ESP32
+# fecaf-API
+API de comunicação da estufa

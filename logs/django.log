@@ -1,0 +1,8 @@
+INFO 2023-09-28 15:12:23,417 autoreload Watching for file changes with StatReloader
+INFO 2023-09-28 15:34:45,396 autoreload C:\Users\Lukas\Desktop\git-\API test\fecaf_estufa\Main_app\views.py changed, reloading.
+INFO 2023-09-28 15:34:46,232 autoreload Watching for file changes with StatReloader
+INFO 2023-09-28 15:39:37,180 autoreload C:\Users\Lukas\Desktop\git-\API test\fecaf_estufa\Main_app\views.py changed, reloading.
+INFO 2023-09-28 15:39:37,965 autoreload Watching for file changes with StatReloader
+WARNING 2023-09-28 15:39:41,785 log Not Found: /fecaf/fecaf/
+DEBUG 2023-09-28 15:39:53,501 core Successfully imported extension module "markdown.extensions.toc".
+DEBUG 2023-09-28 15:39:53,501 core Successfully loaded extension "markdown.extensions.toc.TocExtension".
