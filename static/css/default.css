@@ -1,0 +1,70 @@
+:root{
+    --defaultbg: #151515;
+    --primary: #0D5AEF;
+    --secondary:#3b3b3b;
+    --secondary_text:#2e2e2e;
+    --lightgray:#D9D9D9;
+    --dark: #151515;
+    --white: #FFFFFF;
+    --subtitle:#C7C7C7;
+    --widget_bg:#226DFF;
+    --red:#CE0000;
+    --purple:#8F00FF;
+    --defaultfont: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --secondaryFont: 'Open Sans', sans-serif;
+    --boxshadow: 18px 9px 15px 0px rgba(0,0,0,0.75);
+    --selected: #974063;
+    --scrollbarbg:#ABABAB;
+    --gradient-text-initial:#14ff0b;
+    --max-height: 0px;
+    --max-width: 0px;
+    --perfil_exclusive:0px;
+}
+
+
+*{
+    font-family: var(--defaultfont);
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--defaultbg);
+}
+
+
+::-webkit-scrollbar {
+    width: 10px; /* largura */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--scrollbarbg);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--secondary_text);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--secondary);
+    border-radius: 10px;
+}
+
+::selection {
+    background-color: var(--selected);
+    color: var(--dark);
+}
+
+.menu{
+    height: 60px;
+    margin: 2% 0 5% 0;
+    border: 1px solid red;
+}
+
+.title{
+    color: var(--white);
+    font-weight: lighter;
+}

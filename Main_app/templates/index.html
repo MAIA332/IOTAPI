@@ -1,15 +1,55 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="{% static 'js/default.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/default.css' %}">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}"> 
 </head>
 <body>
-    <h1>FECAF - API</h1>
-    <form action="" method="post">
-        <input type="text" name="dados" value="testar">
-        <input type="submit">
-    </form>
+    {% include 'elements/menu.html' %}
+    
+
+    <div class="buttons">
+        {% if data.0 == 'ON'%}
+            <h1 class="title">Controle manual de fans: <span style="color: green;">ON</span></h1><br>
+        {%endif%}
+        {% if data.0 == 'OFF'%}
+            <h1 class="title">Controle manual de fans: <span style="color: red;">OFF</span></h1><br>
+        {%endif%}
+        <div class="fans">
+            <form action="" method="post">
+                <input type="text" name="dados" value="ON" hidden="true">
+                <input type="submit" value="" class="on">
+            </form>
+            <form action="" method="post">
+                <input type="text" name="dados" value="OFF" hidden="true">
+                <input type="submit" value="" class="off">
+            </form>
+        </div>
+    </div>
+
+    <div class="section">
+        <!-- <img src="{% static 'media/undraw_mobile_testing_re_w7yb.svg' %}" class="home_logo"> -->
+        <div class="cards">
+            <div class="temperatura card"></div>
+            <div class="cooler card"></div>
+            <div class="umidade card"></div>
+        </div>
+
+        <div class="text-info">
+
+        </div>
+
+    </div>
+    
+    <div class="style-rodape">
+        {% for i in "123456789123" %}
+            <span class="vertical-rodape">統合マイコン制御用リモートインターフェース統合プロジェクト統合プロジェクト統合プロジェクト</span>
+        {%endfor%}
+    </div>
 </body>
 </html>

@@ -13,9 +13,13 @@ import numpy as np
 class IndexView(APIView):
     def get(self,request):
         return render(request, 'index.html')
+    
     def post(self,request):
         data = request.data
         value = data["dados"]
+        print(value)
+
+        data = [value]
 
         if value:
-            return Response(value)
+            return render(request,'index.html',{"data":data})#{"trello_boards":boards}

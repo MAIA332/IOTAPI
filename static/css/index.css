@@ -1,0 +1,82 @@
+form{
+    height: 50px;
+}
+
+.style-rodape{
+    display: flex;
+    height: 600px;
+}
+
+.buttons .fans{
+    display: flex;
+}
+
+.buttons form {
+    margin: 0 0 0 5%;
+}
+
+.buttons h1{
+    margin: 0 0 0 5%;
+}
+
+.buttons form input[type="submit"]{
+    background-color: transparent;
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    -webkit-box-shadow: 12px 20px 20px -3px rgba(0,0,0,1);
+    -moz-box-shadow: 12px 20px 20px -3px rgba(0,0,0,1);
+    box-shadow: 12px 20px 20px -3px rgba(0,0,0,1);
+}
+
+.buttons .on{
+    background-image: url('../media/ON.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: contain; /* Ajusta o tamanho da imagem para cobrir todo o botão */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+}
+
+.buttons .off{
+    background-image: url('../media/OFF.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: contain; /* Ajusta o tamanho da imagem para cobrir todo o botão */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+}
+
+.vertical-rodape{
+    margin: 2% 0 0 3%;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    background-image: linear-gradient(to bottom right, var(--gradient-text-initial), var(--defaultbg));
+    -webkit-background-clip: text; 
+    color: transparent; 
+    font-size: 1.3em;
+    cursor: default;
+}
+
+.section{
+    height: 350px;
+    margin: 25% 0 0 0;
+}
+
+.section .cards {
+    height: 350px;
+    width: 70%;
+    display: flex;
+}
+
+.section .cards .card{
+    height: 350px;
+    border: 1px solid red;
+    width: 50%;
+    margin: 0 0 0 1%;
+}
+
+.section .text-info{
+    height: 350px;
+    border: 1px solid blue;
+    width: 27%;
+    margin: -26% 0 0 0;
+    float: right;
+}
