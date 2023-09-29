@@ -17,9 +17,10 @@
         {% if data.0 == 'ON'%}
             <h1 class="title">Controle manual de fans: <span style="color: green;">ON</span></h1><br>
         {%endif%}
-        {% if data.0 == 'OFF'%}
+        {% if data.0 == 'OFF' or data.0 == null %}
             <h1 class="title">Controle manual de fans: <span style="color: red;">OFF</span></h1><br>
         {%endif%}
+
         <div class="fans">
             <form action="" method="post">
                 <input type="text" name="dados" value="ON" hidden="true">
