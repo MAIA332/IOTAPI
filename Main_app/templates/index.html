@@ -8,12 +8,20 @@
     <script src="{% static 'js/default.js' %}"></script>
     <link rel="stylesheet" href="{% static 'css/default.css' %}">
     <link rel="stylesheet" href="{% static 'css/index.css' %}"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100">
+
 </head>
 <body>
-    {% include 'elements/menu.html' %}
+    
+    <div class="banner">
+        {% include 'elements/menu.html' %}
+
+        <h1 class="title">IOT API para integrações em arduino ESP32</h1>
+
+    </div>
     
 
-    <div class="buttons">
+    <div class="buttons" id="Painel">
         {% if data.0 == 'ON'%}
             <h1 class="title">Controle manual de fans: <span style="color: green;">ON</span></h1><br>
         {%endif%}
@@ -36,13 +44,22 @@
     <div class="section">
         <!-- <img src="{% static 'media/undraw_mobile_testing_re_w7yb.svg' %}" class="home_logo"> -->
         <div class="cards">
-            <div class="temperatura card"></div>
-            <div class="cooler card"></div>
-            <div class="umidade card"></div>
+            <div class="temperatura card">
+                <h3>Temperatura:</h3>
+                <div class="card-button"></div>
+            </div>
+            <div class="cooler card">
+                <h3>Ventilação:</h3>
+                <div class="card-button"></div>
+            </div>
+            <div class="umidade card">
+                <h3>Umidade:</h3>
+                <div class="card-button"></div>
+            </div>
         </div>
 
         <div class="text-info">
-
+            <div class="card-button-text"></div>
         </div>
 
     </div>

@@ -1,5 +1,22 @@
+{% load static %}
 <div class="menu">
+    <ul class="nav" >
+        <li class="first"><a href="#Painel">Painel de controle</a></li>
 
-    a
+        <div class="hamburguer">
+            <center>
+                <a href="javascript:void(0);" class="icon" onclick="openMenu()"><img src="{% static 'media/icons8-cardápio-50.png' %}"></a>
+            </center>
+          
+        </div>
+        
+        <div class="left" id="nav">
+            <li class="item"><a href="">Home</a></li>
+            <li class="item"><a href="">Dashboard</a></li>
+            <li class="item"><a href="">Logs</a></li>
+            <li class="item"><a href="">Documentação</a></li>
+        </div>
+        
+    </ul>
 
 </div>

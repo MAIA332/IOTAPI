@@ -7,25 +7,33 @@
     --dark: #151515;
     --white: #FFFFFF;
     --subtitle:#C7C7C7;
-    --widget_bg:#226DFF;
+    --widget_bg:#226cffab;
     --red:#CE0000;
     --purple:#8F00FF;
-    --defaultfont: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --defaultfont: 'Poppins', sans-serif;
     --secondaryFont: 'Open Sans', sans-serif;
-    --boxshadow: 18px 9px 15px 0px rgba(0,0,0,0.75);
     --selected: #974063;
     --scrollbarbg:#ABABAB;
     --gradient-text-initial:#14ff0b;
     --max-height: 0px;
     --max-width: 0px;
     --perfil_exclusive:0px;
+    --gold:#ffd901;
+    --cardBack: #0f0f0f;
+    --liteWhite:#f9f9fe;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 
 
 *{
     font-family: var(--defaultfont);
     padding: 0;
     margin: 0;
+    transform: 0.3s;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -60,11 +68,66 @@ body{
 
 .menu{
     height: 60px;
-    margin: 2% 0 5% 0;
-    border: 1px solid red;
+    margin: 0.5% 0 5% 0;
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+}
+
+.menu .hamburguer{
+    cursor: pointer;
+    height: 55px;
+    background-color: var(--dark);
+    width: 4%;
+    position: absolute;
+    margin: 0.2% 0 0 95%;
+}
+
+.menu .hamburguer img{
+    width: 70%;
+    margin: 10% 0 0 0;
+}
+
+.menu ul{
+    margin: 0 0 0 0%;
+    display: flex;
+    width: 100%;
+}
+
+.menu ul .left{
+    background-color: var(--widget_bg);
+    display: none;
+    margin: 5% 0 0 80%;
+    width: 20%;
+    position: absolute;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.menu ul li{
+    list-style: none;
+    margin: 10% 0 0 15%;
+}
+
+.menu ul .first{
+    margin: 1% 0 0 2%;
+    float: left;
+}
+
+.menu ul li a{
+    transition: 0.5s;
+    color: var(--liteWhite);
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul li a:hover{
+    color: var(--gold);
+    border-bottom: 0.5px solid var(--gold);
 }
 
 .title{
     color: var(--white);
-    font-weight: lighter;
+    font-weight: bold;
 }
