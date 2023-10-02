@@ -22,20 +22,40 @@
     
 
     <div class="buttons" id="Painel">
-        {% if data.0 == 'ON'%}
+        {% if data.0.fan == 'ON'%}
             <h1 class="title">Controle manual de fans: <span style="color: green;">ON</span></h1><br>
         {%endif%}
-        {% if data.0 == 'OFF' or data.0 == null %}
+        {% if data.0.fan == 'OFF' or data.0.fan == null or data.0.fan == ''%}
             <h1 class="title">Controle manual de fans: <span style="color: red;">OFF</span></h1><br>
         {%endif%}
 
         <div class="fans">
             <form action="" method="post">
-                <input type="text" name="dados" value="ON" hidden="true">
+                <input type="text" name="dados" value="ON-fan" hidden="true">
                 <input type="submit" value="" class="on">
             </form>
             <form action="" method="post">
-                <input type="text" name="dados" value="OFF" hidden="true">
+                <input type="text" name="dados" value="OFF-fan" hidden="true">
+                <input type="submit" value="" class="off">
+            </form>
+        </div>
+    </div>
+
+    <div class="buttons lampada" id="Painel">
+        {% if data.0.lamp == 'ON'%}
+            <h1 class="title">Controle manual da lampada: <span style="color: green;">ON</span></h1><br>
+        {%endif%}
+        {% if data.0.lamp == 'OFF' or data.0.lamp == '' or data.0 == null %}
+            <h1 class="title">Controle manual de lampada: <span style="color: red;">OFF</span></h1><br>
+        {%endif%}
+
+        <div class="fans">
+            <form action="" method="post">
+                <input type="text" name="dados" value="ON-lamp" hidden="true">
+                <input type="submit" value="" class="on">
+            </form>
+            <form action="" method="post">
+                <input type="text" name="dados" value="OFF-lamp" hidden="true">
                 <input type="submit" value="" class="off">
             </form>
         </div>
@@ -46,20 +66,20 @@
         <div class="cards">
             <div class="temperatura card">
                 <h3>Temperatura:</h3>
-                <div class="card-button"></div>
+                <div class="card-button"><p><a href="#">Ver mais</a></p></div>
             </div>
             <div class="cooler card">
-                <h3>Ventilação:</h3>
-                <div class="card-button"></div>
+                <h3>Nivel estimado de CO2:</h3>
+                <div class="card-button"><p><a href="#">Ver mais</a></p></div>
             </div>
             <div class="umidade card">
                 <h3>Umidade:</h3>
-                <div class="card-button"></div>
+                <div class="card-button"><p><a href="#">Ver mais</a></p></div>
             </div>
         </div>
 
         <div class="text-info">
-            <div class="card-button-text"></div>
+            <div class="card-button-text"><p><a href="#">Ver mais</a></p></div>
         </div>
 
     </div>

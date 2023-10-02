@@ -42,8 +42,8 @@ form{
     color: var(--white);
     border: none;
     cursor: pointer;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     -webkit-box-shadow: 12px 20px 20px -3px rgba(0,0,0,1);
     -moz-box-shadow: 12px 20px 20px -3px rgba(0,0,0,1);
@@ -60,6 +60,14 @@ form{
     background-image: url('../media/OFF.png'); /* Substitua pelo caminho da sua imagem */
     background-size: contain; /* Ajusta o tamanho da imagem para cobrir todo o botão */
     background-repeat: no-repeat; /* Impede a repetição da imagem */
+}
+
+.buttons .title{
+    font-size: 1.5em;
+}
+
+.lampada{
+    margin: -8% 0 0 60%;
 }
 
 .vertical-rodape{
@@ -124,4 +132,19 @@ form{
     border-radius: 20px;
     background-color: var(--primary);
     margin: 75% 0 0 15%;
+}
+
+.section .text-info .card-button-text p, .section .cards .card-button p{
+    font-weight: bold;
+    margin: 5% 0 0 35%;
+    cursor: pointer;
+}
+
+.section .text-info .card-button-text p{
+    margin: 35% 0 0 35%;
+}
+
+.section .text-info .card-button-text a, .section .cards .card-button a{
+    color: var(--white);
+    text-decoration: none;
 }

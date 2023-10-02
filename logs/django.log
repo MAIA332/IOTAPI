@@ -1,1342 +1,52 @@
-INFO 2023-09-28 15:12:23,417 autoreload Watching for file changes with StatReloader
-INFO 2023-09-28 15:34:45,396 autoreload C:\Users\Lukas\Desktop\git-\API test\fecaf_estufa\Main_app\views.py changed, reloading.
-INFO 2023-09-28 15:34:46,232 autoreload Watching for file changes with StatReloader
-INFO 2023-09-28 15:39:37,180 autoreload C:\Users\Lukas\Desktop\git-\API test\fecaf_estufa\Main_app\views.py changed, reloading.
-INFO 2023-09-28 15:39:37,965 autoreload Watching for file changes with StatReloader
-WARNING 2023-09-28 15:39:41,785 log Not Found: /fecaf/fecaf/
-DEBUG 2023-09-28 15:39:53,501 core Successfully imported extension module "markdown.extensions.toc".
-DEBUG 2023-09-28 15:39:53,501 core Successfully loaded extension "markdown.extensions.toc.TocExtension".
-INFO 2023-09-29 08:31:37,984 autoreload Watching for file changes with StatReloader
-WARNING 2023-09-29 08:31:45,173 log Not Found: /
-WARNING 2023-09-29 08:31:45,274 log Not Found: /favicon.ico
-DEBUG 2023-09-29 08:31:51,461 core Successfully imported extension module "markdown.extensions.toc".
-DEBUG 2023-09-29 08:31:51,461 core Successfully loaded extension "markdown.extensions.toc.TocExtension".
-INFO 2023-09-29 08:33:04,793 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-09-29 08:44:40,271 autoreload Watching for file changes with StatReloader
-WARNING 2023-09-29 08:44:41,857 log Not Found: /favicon.ico
-INFO 2023-09-29 09:42:17,043 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-09-29 09:42:17,888 autoreload Watching for file changes with StatReloader
-WARNING 2023-09-29 09:45:55,086 log Not Found: /favicon.ico
-WARNING 2023-09-29 09:46:10,541 log Not Found: /favicon.ico
-WARNING 2023-09-29 09:46:23,460 log Not Found: /favicon.ico
-WARNING 2023-09-29 09:55:41,054 log Not Found: /favicon.ico
-WARNING 2023-09-29 09:55:52,531 log Not Found: /favicon.ico
-WARNING 2023-09-29 10:15:18,096 log Not Found: /favicon.ico
-WARNING 2023-09-29 10:16:41,224 log Not Found: /favicon.ico
-WARNING 2023-09-29 10:19:55,834 log Not Found: /favicon.ico
-WARNING 2023-09-29 10:23:15,219 log Not Found: /favicon.ico
-WARNING 2023-09-29 10:43:34,387 log Not Found: /favicon.ico
-WARNING 2023-09-29 10:43:39,131 log Not Found: /favicon.ico
-WARNING 2023-09-29 10:47:21,608 log Not Found: /favicon.ico
-WARNING 2023-09-29 10:47:26,583 log Not Found: /favicon.ico
-WARNING 2023-09-29 10:48:17,112 log Not Found: /favicon.ico
-INFO 2023-09-29 11:16:28,173 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-09-29 11:16:29,115 autoreload Watching for file changes with StatReloader
-ERROR 2023-09-29 11:17:58,771 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 511, in dispatch
-    self.response = self.finalize_response(request, response, *args, **kwargs)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 423, in finalize_response
-    assert isinstance(response, HttpResponseBase), (
-AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
-INFO 2023-09-29 11:22:48,960 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-09-29 11:22:49,788 autoreload Watching for file changes with StatReloader
-INFO 2023-09-29 11:23:57,605 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-09-29 11:23:58,400 autoreload Watching for file changes with StatReloader
-INFO 2023-09-29 11:26:20,072 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-09-29 11:26:21,100 autoreload Watching for file changes with StatReloader
-WARNING 2023-09-29 11:45:47,469 log Not Found: /favicon.ico
-WARNING 2023-09-29 13:12:58,028 log Not Found: /favicon.ico
-ERROR 2023-09-29 13:22:13,036 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 15, in get
-    return render(request, 'index.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 15, in get_template
-    return engine.get_template(template_name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
-    return Template(self.engine.get_template(template_name), self)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
-    template, origin = self.find_template(template_name)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
-    template = loader.get_template(name, skip=skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
-    template = super().get_template(template_name, skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
-    return Template(
-           ^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
-    self.nodelist = self.compile_nodelist()
-                    ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
-    return parser.parse()
-           ^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
-    raise self.error(token, e)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
-    compiled_result = compile_func(self, token)
-                      ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 341, in do_include
-    raise TemplateSyntaxError(
-django.template.exceptions.TemplateSyntaxError: Unknown argument for 'include' tag: 'static'.
-ERROR 2023-09-29 13:22:32,002 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
-    return self.template.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 175, in render
-    return self._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 167, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 197, in render
-    template = context.template.engine.select_template(template_name)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 212, in select_template
-    raise TemplateDoesNotExist(", ".join(not_found))
-django.template.exceptions.TemplateDoesNotExist: static/elements/menu.html
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 15, in get
-    return render(request, 'index.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 63, in render
-    reraise(exc, self.backend)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
-    raise new from exc
-django.template.exceptions.TemplateDoesNotExist: static/elements/menu.html
-ERROR 2023-09-29 13:22:41,714 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 15, in get
-    return render(request, 'index.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 15, in get_template
-    return engine.get_template(template_name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
-    return Template(self.engine.get_template(template_name), self)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
-    template, origin = self.find_template(template_name)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
-    template = loader.get_template(name, skip=skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
-    template = super().get_template(template_name, skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
-    return Template(
-           ^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
-    self.nodelist = self.compile_nodelist()
-                    ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
-    return parser.parse()
-           ^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
-    raise self.error(token, e)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
-    compiled_result = compile_func(self, token)
-                      ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 341, in do_include
-    raise TemplateSyntaxError(
-django.template.exceptions.TemplateSyntaxError: Unknown argument for 'include' tag: "'/elements/menu.html'".
-ERROR 2023-09-29 13:22:48,354 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 15, in get
-    return render(request, 'index.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 15, in get_template
-    return engine.get_template(template_name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
-    return Template(self.engine.get_template(template_name), self)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
-    template, origin = self.find_template(template_name)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
-    template = loader.get_template(name, skip=skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
-    template = super().get_template(template_name, skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
-    return Template(
-           ^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
-    self.nodelist = self.compile_nodelist()
-                    ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
-    return parser.parse()
-           ^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
-    raise self.error(token, e)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
-    compiled_result = compile_func(self, token)
-                      ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 341, in do_include
-    raise TemplateSyntaxError(
-django.template.exceptions.TemplateSyntaxError: Unknown argument for 'include' tag: "'elements/menu.html'".
-ERROR 2023-09-29 13:23:16,657 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 15, in get
-    return render(request, 'index.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 15, in get_template
-    return engine.get_template(template_name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
-    return Template(self.engine.get_template(template_name), self)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
-    template, origin = self.find_template(template_name)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
-    template = loader.get_template(name, skip=skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
-    template = super().get_template(template_name, skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
-    return Template(
-           ^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
-    self.nodelist = self.compile_nodelist()
-                    ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
-    return parser.parse()
-           ^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
-    raise self.error(token, e)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
-    compiled_result = compile_func(self, token)
-                      ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 341, in do_include
-    raise TemplateSyntaxError(
-django.template.exceptions.TemplateSyntaxError: Unknown argument for 'include' tag: '"elements/menu.html"'.
-WARNING 2023-09-29 13:23:44,064 log Not Found: /favicon.ico
-ERROR 2023-09-29 13:24:05,440 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
-    return self.template.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 175, in render
-    return self._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 167, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 197, in render
-    template = context.template.engine.select_template(template_name)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 212, in select_template
-    raise TemplateDoesNotExist(", ".join(not_found))
-django.template.exceptions.TemplateDoesNotExist: elements/menu.html
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 15, in get
-    return render(request, 'index.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 63, in render
-    reraise(exc, self.backend)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
-    raise new from exc
-django.template.exceptions.TemplateDoesNotExist: elements/menu.html
-ERROR 2023-09-29 13:24:25,909 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
-    return self.template.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 175, in render
-    return self._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 167, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 197, in render
-    template = context.template.engine.select_template(template_name)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 212, in select_template
-    raise TemplateDoesNotExist(", ".join(not_found))
-django.template.exceptions.TemplateDoesNotExist: elements/menu.html
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 15, in get
-    return render(request, 'index.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 63, in render
-    reraise(exc, self.backend)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
-    raise new from exc
-django.template.exceptions.TemplateDoesNotExist: elements/menu.html
-ERROR 2023-09-29 13:24:26,585 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
-    return self.template.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 175, in render
-    return self._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 167, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 197, in render
-    template = context.template.engine.select_template(template_name)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 212, in select_template
-    raise TemplateDoesNotExist(", ".join(not_found))
-django.template.exceptions.TemplateDoesNotExist: elements/menu.html
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 15, in get
-    return render(request, 'index.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 63, in render
-    reraise(exc, self.backend)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
-    raise new from exc
-django.template.exceptions.TemplateDoesNotExist: elements/menu.html
-ERROR 2023-09-29 13:24:27,925 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
-    return self.template.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 175, in render
-    return self._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 167, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 197, in render
-    template = context.template.engine.select_template(template_name)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 212, in select_template
-    raise TemplateDoesNotExist(", ".join(not_found))
-django.template.exceptions.TemplateDoesNotExist: elements/menu.html
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 15, in get
-    return render(request, 'index.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 63, in render
-    reraise(exc, self.backend)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
-    raise new from exc
-django.template.exceptions.TemplateDoesNotExist: elements/menu.html
-WARNING 2023-09-29 13:24:28,044 log Not Found: /favicon.ico
-WARNING 2023-09-29 13:28:24,074 log Not Found: /favicon.ico
-WARNING 2023-09-29 13:32:04,882 log Not Found: /favicon.ico
-WARNING 2023-09-29 13:36:38,556 log Not Found: /favicon.ico
-WARNING 2023-09-29 13:46:52,657 log Not Found: /favicon.ico
-WARNING 2023-09-29 13:50:15,157 log Not Found: /favicon.ico
-WARNING 2023-09-29 13:58:01,030 log Not Found: /favicon.ico
-WARNING 2023-09-29 13:58:36,388 log Not Found: /favicon.ico
-ERROR 2023-09-29 14:07:01,031 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 15, in get
-    return render(request, 'index.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
-    return self.template.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 175, in render
-    return self._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 167, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 193, in render
-    values = list(values)
-             ^^^^^^^^^^^^
-TypeError: 'int' object is not iterable
-WARNING 2023-09-29 14:07:36,008 log Not Found: /favicon.ico
-WARNING 2023-09-29 14:22:03,632 log Not Found: /favicon.ico
-WARNING 2023-09-29 14:26:52,320 log Not Found: /favicon.ico
-WARNING 2023-09-29 14:26:59,264 log Not Found: /favicon.ico
-WARNING 2023-09-29 14:28:01,261 log Not Found: /favicon.ico
-WARNING 2023-09-29 14:50:07,433 log Not Found: /favicon.ico
-WARNING 2023-09-29 15:14:35,714 log Not Found: /favicon.ico
-WARNING 2023-09-29 15:14:46,904 log Not Found: /favicon.ico
-WARNING 2023-09-29 15:15:52,325 log Not Found: /favicon.ico
-WARNING 2023-09-29 15:21:51,149 log Not Found: /favicon.ico
-WARNING 2023-09-29 15:23:27,460 log Not Found: /favicon.ico
-WARNING 2023-09-29 15:27:47,020 log Not Found: /favicon.ico
-WARNING 2023-09-29 15:34:17,190 log Not Found: /favicon.ico
-WARNING 2023-09-29 15:40:03,976 log Not Found: /favicon.ico
-ERROR 2023-09-29 15:40:29,722 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 511, in dispatch
-    self.response = self.finalize_response(request, response, *args, **kwargs)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 423, in finalize_response
-    assert isinstance(response, HttpResponseBase), (
-AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
-ERROR 2023-09-29 15:40:48,282 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 511, in dispatch
-    self.response = self.finalize_response(request, response, *args, **kwargs)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 423, in finalize_response
-    assert isinstance(response, HttpResponseBase), (
-AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
-WARNING 2023-09-29 15:40:51,822 log Not Found: /favicon.ico
-INFO 2023-09-29 15:44:48,073 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-09-29 15:44:48,993 autoreload Watching for file changes with StatReloader
-ERROR 2023-09-29 15:46:22,495 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
-    compile_func = self.tags[command]
-                   ~~~~~~~~~^^^^^^^^^
-KeyError: 'if(data.0'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 15, in get
-    return render(request, 'index.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 15, in get_template
-    return engine.get_template(template_name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
-    return Template(self.engine.get_template(template_name), self)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
-    template, origin = self.find_template(template_name)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
-    template = loader.get_template(name, skip=skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
-    template = super().get_template(template_name, skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
-    return Template(
-           ^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
-    self.nodelist = self.compile_nodelist()
-                    ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
-    return parser.parse()
-           ^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
-    self.invalid_block_tag(token, command, parse_until)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
-    raise self.error(
-django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'if(data.0'. Did you forget to register or load this tag?
-ERROR 2023-09-29 15:48:33,654 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\smartif.py", line 179, in translate_token
-    op = OPERATORS[token]
-         ~~~~~~~~~^^^^^^^
-KeyError: "'ON':"
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 15, in get
-    return render(request, 'index.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 15, in get_template
-    return engine.get_template(template_name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
-    return Template(self.engine.get_template(template_name), self)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
-    template, origin = self.find_template(template_name)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
-    template = loader.get_template(name, skip=skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
-    template = super().get_template(template_name, skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
-    return Template(
-           ^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
-    self.nodelist = self.compile_nodelist()
-                    ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
-    return parser.parse()
-           ^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
-    raise self.error(token, e)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
-    compiled_result = compile_func(self, token)
-                      ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 952, in do_if
-    condition = TemplateIfParser(parser, bits).parse()
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 885, in __init__
-    super().__init__(*args, **kwargs)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\smartif.py", line 170, in __init__
-    mapped_tokens.append(self.translate_token(token))
-                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\smartif.py", line 181, in translate_token
-    return self.create_var(token)
-           ^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 888, in create_var
-    return TemplateLiteral(self.template_parser.compile_filter(value), value)
-                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 600, in compile_filter
-    return FilterExpression(token, self)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 703, in __init__
-    raise TemplateSyntaxError(
-django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ':' from ''ON':'
-INFO 2023-09-29 16:33:19,488 autoreload Watching for file changes with StatReloader
-WARNING 2023-09-29 16:33:41,360 log Not Found: /
-WARNING 2023-09-29 16:34:12,332 log Not Found: /favicon.ico
-WARNING 2023-09-29 16:34:18,256 log Not Found: /favicon.ico
-ERROR 2023-09-29 16:35:43,847 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
-    compile_func = self.tags[command]
-                   ~~~~~~~~~^^^^^^^^^
-KeyError: 'else'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 15, in get
-    return render(request, 'index.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 15, in get_template
-    return engine.get_template(template_name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
-    return Template(self.engine.get_template(template_name), self)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
-    template, origin = self.find_template(template_name)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
-    template = loader.get_template(name, skip=skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
-    template = super().get_template(template_name, skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
-    return Template(
-           ^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
-    self.nodelist = self.compile_nodelist()
-                    ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
-    return parser.parse()
-           ^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
-    self.invalid_block_tag(token, command, parse_until)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
-    raise self.error(
-django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 23: 'else'. Did you forget to register or load this tag?
-ERROR 2023-09-29 16:35:44,843 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
-    compile_func = self.tags[command]
-                   ~~~~~~~~~^^^^^^^^^
-KeyError: 'else'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 15, in get
-    return render(request, 'index.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 15, in get_template
-    return engine.get_template(template_name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
-    return Template(self.engine.get_template(template_name), self)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
-    template, origin = self.find_template(template_name)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
-    template = loader.get_template(name, skip=skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
-    template = super().get_template(template_name, skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
-    return Template(
-           ^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
-    self.nodelist = self.compile_nodelist()
-                    ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
-    return parser.parse()
-           ^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
-    self.invalid_block_tag(token, command, parse_until)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
-    raise self.error(
-django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 23: 'else'. Did you forget to register or load this tag?
-ERROR 2023-09-29 16:35:52,722 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
-    compile_func = self.tags[command]
-                   ~~~~~~~~~^^^^^^^^^
-KeyError: 'else'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 15, in get
-    return render(request, 'index.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 15, in get_template
-    return engine.get_template(template_name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
-    return Template(self.engine.get_template(template_name), self)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
-    template, origin = self.find_template(template_name)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
-    template = loader.get_template(name, skip=skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
-    template = super().get_template(template_name, skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
-    return Template(
-           ^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
-    self.nodelist = self.compile_nodelist()
-                    ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
-    return parser.parse()
-           ^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
-    self.invalid_block_tag(token, command, parse_until)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
-    raise self.error(
-django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 23: 'else'. Did you forget to register or load this tag?
-ERROR 2023-09-29 16:35:54,430 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
-    compile_func = self.tags[command]
-                   ~~~~~~~~~^^^^^^^^^
-KeyError: 'else'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 15, in get
-    return render(request, 'index.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 15, in get_template
-    return engine.get_template(template_name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
-    return Template(self.engine.get_template(template_name), self)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
-    template, origin = self.find_template(template_name)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
-    template = loader.get_template(name, skip=skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
-    template = super().get_template(template_name, skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
-    return Template(
-           ^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
-    self.nodelist = self.compile_nodelist()
-                    ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
-    return parser.parse()
-           ^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
-    self.invalid_block_tag(token, command, parse_until)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
-    raise self.error(
-django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 23: 'else'. Did you forget to register or load this tag?
-WARNING 2023-09-29 16:35:54,577 log Not Found: /favicon.ico
-WARNING 2023-09-29 16:36:28,443 log Not Found: /favicon.ico
-WARNING 2023-09-29 16:36:32,896 log Not Found: /favicon.ico
-ERROR 2023-09-29 16:36:43,191 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\smartif.py", line 179, in translate_token
-    op = OPERATORS[token]
-         ~~~~~~~~~^^^^^^^
-KeyError: '!data.0'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 15, in get
-    return render(request, 'index.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 15, in get_template
-    return engine.get_template(template_name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
-    return Template(self.engine.get_template(template_name), self)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
-    template, origin = self.find_template(template_name)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
-    template = loader.get_template(name, skip=skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
-    template = super().get_template(template_name, skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
-    return Template(
-           ^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
-    self.nodelist = self.compile_nodelist()
-                    ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
-    return parser.parse()
-           ^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
-    raise self.error(token, e)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
-    compiled_result = compile_func(self, token)
-                      ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 952, in do_if
-    condition = TemplateIfParser(parser, bits).parse()
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 885, in __init__
-    super().__init__(*args, **kwargs)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\smartif.py", line 170, in __init__
-    mapped_tokens.append(self.translate_token(token))
-                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\smartif.py", line 181, in translate_token
-    return self.create_var(token)
-           ^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 888, in create_var
-    return TemplateLiteral(self.template_parser.compile_filter(value), value)
-                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 600, in compile_filter
-    return FilterExpression(token, self)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 703, in __init__
-    raise TemplateSyntaxError(
-django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '!data.0' from '!data.0'
-INFO 2023-09-30 08:16:34,779 autoreload Watching for file changes with StatReloader
-INFO 2023-09-30 08:21:33,692 autoreload Watching for file changes with StatReloader
-WARNING 2023-09-30 08:21:35,170 log Not Found: /
-WARNING 2023-09-30 08:21:35,266 log Not Found: /favicon.ico
-WARNING 2023-09-30 08:47:22,419 log Not Found: /favicon.ico
-WARNING 2023-09-30 08:47:52,014 log Not Found: /favicon.ico
-WARNING 2023-09-30 08:48:41,103 log Not Found: /favicon.ico
-WARNING 2023-09-30 08:56:02,149 log Not Found: /favicon.ico
-WARNING 2023-09-30 08:57:03,231 log Not Found: /favicon.ico
-WARNING 2023-09-30 08:57:11,077 log Not Found: /favicon.ico
-WARNING 2023-09-30 08:57:27,812 log Not Found: /favicon.ico
-WARNING 2023-09-30 09:31:51,620 log Not Found: /favicon.ico
-WARNING 2023-09-30 09:35:39,740 log Not Found: /favicon.ico
-WARNING 2023-09-30 09:38:36,904 log Not Found: /favicon.ico
-WARNING 2023-09-30 09:39:11,311 log Not Found: /favicon.ico
-WARNING 2023-09-30 09:49:05,741 log Not Found: /favicon.ico
-WARNING 2023-09-30 09:50:53,995 log Not Found: /favicon.ico
-WARNING 2023-09-30 09:55:45,270 log Not Found: /favicon.ico
-WARNING 2023-09-30 10:00:27,982 log Not Found: /favicon.ico
-WARNING 2023-09-30 10:02:26,806 log Not Found: /favicon.ico
-WARNING 2023-09-30 10:02:28,445 log Not Found: /favicon.ico
-WARNING 2023-09-30 10:02:49,925 log Not Found: /favicon.ico
-WARNING 2023-09-30 10:03:00,208 log Not Found: /favicon.ico
-WARNING 2023-09-30 10:03:39,684 log Not Found: /favicon.ico
-WARNING 2023-09-30 10:04:03,415 log Not Found: /favicon.ico
-WARNING 2023-09-30 10:04:43,990 log Not Found: /favicon.ico
-WARNING 2023-09-30 10:04:56,890 log Not Found: /favicon.ico
-WARNING 2023-09-30 10:05:03,234 log Not Found: /favicon.ico
-ERROR 2023-09-30 10:45:00,842 log Internal Server Error: /fecaf/
+WARNING 2023-10-02 09:54:52,632 log Not Found: /favicon.ico
+WARNING 2023-10-02 09:57:33,119 log Not Found: /favicon.ico
+WARNING 2023-10-02 09:58:55,767 log Not Found: /favicon.ico
+WARNING 2023-10-02 09:59:03,244 log Not Found: /favicon.ico
+WARNING 2023-10-02 11:04:35,169 log Not Found: /favicon.ico
+WARNING 2023-10-02 11:05:13,727 log Not Found: /favicon.ico
+WARNING 2023-10-02 11:06:38,493 log Not Found: /favicon.ico
+WARNING 2023-10-02 11:06:39,224 log Not Found: /favicon.ico
+WARNING 2023-10-02 11:06:45,745 log Not Found: /favicon.ico
+WARNING 2023-10-02 11:06:53,788 log Not Found: /favicon.ico
+WARNING 2023-10-02 11:08:22,735 log Not Found: /favicon.ico
+INFO 2023-10-02 11:20:30,041 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-02 11:20:30,988 autoreload Watching for file changes with StatReloader
+INFO 2023-10-02 11:22:18,001 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-02 11:22:18,770 autoreload Watching for file changes with StatReloader
+WARNING 2023-10-02 11:23:05,864 log Not Found: /favicon.ico
+INFO 2023-10-02 11:32:58,071 autoreload Watching for file changes with StatReloader
+INFO 2023-10-02 11:34:38,558 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-02 11:34:39,461 autoreload Watching for file changes with StatReloader
+INFO 2023-10-02 12:15:25,964 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-02 12:15:26,889 autoreload Watching for file changes with StatReloader
+INFO 2023-10-02 12:22:00,751 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-02 12:22:01,624 autoreload Watching for file changes with StatReloader
+INFO 2023-10-02 12:22:05,246 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\urls.py changed, reloading.
+INFO 2023-10-02 12:22:06,001 autoreload Watching for file changes with StatReloader
+WARNING 2023-10-02 12:22:29,981 log Not Found: /fecaf/documentacao
+WARNING 2023-10-02 12:22:34,680 log Not Found: /fecaf/docs
+WARNING 2023-10-02 12:22:44,036 log Not Found: /fecaf/docs
+INFO 2023-10-02 12:22:49,730 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\urls.py changed, reloading.
+INFO 2023-10-02 12:22:50,487 autoreload Watching for file changes with StatReloader
+WARNING 2023-10-02 12:22:52,278 log Not Found: /fecaf/docs
+WARNING 2023-10-02 12:22:53,308 log Not Found: /fecaf/docs
+WARNING 2023-10-02 12:22:53,337 log Not Found: /favicon.ico
+INFO 2023-10-02 12:26:26,997 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\urls.py changed, reloading.
+INFO 2023-10-02 12:26:27,884 autoreload Watching for file changes with StatReloader
+WARNING 2023-10-02 12:26:32,498 log Not Found: /fecaf/docs
+WARNING 2023-10-02 12:26:32,942 log Not Found: /fecaf/docs
+WARNING 2023-10-02 12:26:33,268 log Not Found: /fecaf/docs
+WARNING 2023-10-02 12:26:33,446 log Not Found: /fecaf/docs
+WARNING 2023-10-02 12:26:33,613 log Not Found: /fecaf/docs
+WARNING 2023-10-02 12:26:34,098 log Not Found: /fecaf/docs
+WARNING 2023-10-02 12:26:34,268 log Not Found: /fecaf/docs
+WARNING 2023-10-02 12:26:34,445 log Not Found: /fecaf/docs
+WARNING 2023-10-02 12:26:34,759 log Not Found: /fecaf/docs
+WARNING 2023-10-02 12:26:35,045 log Not Found: /fecaf/docs
+WARNING 2023-10-02 12:26:35,310 log Not Found: /fecaf/docs
+INFO 2023-10-02 12:26:41,104 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\urls.py changed, reloading.
+INFO 2023-10-02 12:26:41,960 autoreload Watching for file changes with StatReloader
+ERROR 2023-10-02 12:28:56,428 log Internal Server Error: /fecaf/docs
 Traceback (most recent call last):
   File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
     compile_func = self.tags[command]
@@ -1368,39 +78,21 @@ Traceback (most recent call last):
   File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
     response = handler(request, *args, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 15, in get
-    return render(request, 'index.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 35, in get
+    return render(request, 'documentacao.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
     content = loader.render_to_string(template_name, context, request, using=using)
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
-    return self.template.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 175, in render
-    return self._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 167, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 197, in render
-    template = context.template.engine.select_template(template_name)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 206, in select_template
-    return self.get_template(template_name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
     template, origin = self.find_template(template_name)
                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1423,16 +115,34 @@ Traceback (most recent call last):
     self.invalid_block_tag(token, command, parse_until)
   File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
     raise self.error(
-django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 3: 'static'. Did you forget to register or load this tag?
-ERROR 2023-09-30 10:45:06,236 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
-    compile_func = self.tags[command]
-                   ~~~~~~~~~^^^^^^^^^
-KeyError: 'static'
-
-During handling of the above exception, another exception occurred:
-
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'static'. Did you forget to register or load this tag?
+WARNING 2023-10-02 12:28:56,625 log Not Found: /favicon.ico
+WARNING 2023-10-02 12:29:07,057 log Not Found: /favicon.ico
+WARNING 2023-10-02 13:37:18,884 log Not Found: /favicon.ico
+WARNING 2023-10-02 13:40:40,758 log Not Found: /fecaf/home
+INFO 2023-10-02 13:43:25,970 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\urls.py changed, reloading.
+INFO 2023-10-02 13:43:26,816 autoreload Watching for file changes with StatReloader
+WARNING 2023-10-02 13:46:52,178 log Not Found: /favicon.ico
+WARNING 2023-10-02 13:46:58,376 log Not Found: /favicon.ico
+WARNING 2023-10-02 13:47:45,734 log Not Found: /favicon.ico
+WARNING 2023-10-02 13:49:40,266 log Not Found: /favicon.ico
+WARNING 2023-10-02 13:50:12,277 log Not Found: /favicon.ico
+WARNING 2023-10-02 14:07:39,518 log Not Found: /favicon.ico
+WARNING 2023-10-02 14:08:24,914 log Not Found: /favicon.ico
+WARNING 2023-10-02 14:10:23,437 log Not Found: /favicon.ico
+WARNING 2023-10-02 14:10:58,051 log Not Found: /favicon.ico
+WARNING 2023-10-02 14:11:33,589 log Not Found: /favicon.ico
+WARNING 2023-10-02 14:20:32,752 log Not Found: /favicon.ico
+WARNING 2023-10-02 14:22:22,187 log Not Found: /favicon.ico
+WARNING 2023-10-02 14:22:30,353 log Not Found: /favicon.ico
+WARNING 2023-10-02 14:23:14,161 log Not Found: /favicon.ico
+WARNING 2023-10-02 15:17:27,233 log Not Found: /favicon.ico
+WARNING 2023-10-02 15:18:13,546 log Not Found: /favicon.ico
+WARNING 2023-10-02 15:29:16,543 log Not Found: /favicon.ico
+WARNING 2023-10-02 15:29:18,116 log Not Found: /favicon.ico
+WARNING 2023-10-02 15:29:48,136 log Not Found: /favicon.ico
+WARNING 2023-10-02 15:30:12,874 log Not Found: /favicon.ico
+ERROR 2023-10-02 15:31:02,379 log Internal Server Error: /fecaf/docs
 Traceback (most recent call last):
   File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
     response = get_response(request)
@@ -1456,39 +166,21 @@ Traceback (most recent call last):
   File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
     response = handler(request, *args, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 15, in get
-    return render(request, 'index.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 35, in get
+    return render(request, 'documentacao.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
     content = loader.render_to_string(template_name, context, request, using=using)
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
-    return self.template.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 175, in render
-    return self._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 167, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 197, in render
-    template = context.template.engine.select_template(template_name)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 206, in select_template
-    return self.get_template(template_name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
     template, origin = self.find_template(template_name)
                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1507,28 +199,100 @@ Traceback (most recent call last):
   File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
     return parser.parse()
            ^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
-    self.invalid_block_tag(token, command, parse_until)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
-    raise self.error(
-django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 3: 'static'. Did you forget to register or load this tag?
-WARNING 2023-09-30 10:45:06,367 log Not Found: /favicon.ico
-WARNING 2023-09-30 10:45:49,369 log Not Found: /favicon.ico
-WARNING 2023-09-30 10:55:06,851 log Not Found: /favicon.ico
-WARNING 2023-09-30 10:55:34,529 log Not Found: /favicon.ico
-WARNING 2023-09-30 10:55:57,613 log Not Found: /favicon.ico
-WARNING 2023-09-30 10:56:45,382 log Not Found: /favicon.ico
-WARNING 2023-09-30 11:16:38,323 log Not Found: /favicon.ico
-WARNING 2023-09-30 11:39:33,526 log Not Found: /favicon.ico
-WARNING 2023-09-30 11:47:14,523 log Not Found: /favicon.ico
-WARNING 2023-09-30 11:57:37,889 log Not Found: /favicon.ico
-WARNING 2023-09-30 11:57:51,844 log Not Found: /favicon.ico
-WARNING 2023-09-30 11:59:42,034 log Not Found: /favicon.ico
-WARNING 2023-09-30 12:21:06,246 log Not Found: /favicon.ico
-WARNING 2023-09-30 12:22:45,843 log Not Found: /favicon.ico
-WARNING 2023-09-30 12:24:34,028 log Not Found: /favicon.ico
-WARNING 2023-09-30 12:25:59,598 log Not Found: /favicon.ico
-WARNING 2023-09-30 12:29:28,424 log Not Found: /favicon.ico
-WARNING 2023-09-30 12:37:52,565 log Not Found: /favicon.ico
-WARNING 2023-09-30 12:38:47,239 log Not Found: /favicon.ico
-WARNING 2023-09-30 12:38:58,035 log Not Found: /favicon.ico
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\templatetags\static.py", line 171, in do_static
+    return StaticNode.handle_token(parser, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\templatetags\static.py", line 145, in handle_token
+    path = parser.compile_filter(bits[1])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ''media/icons8-copiar-50.png' from ''media/icons8-copiar-50.png'
+ERROR 2023-10-02 15:31:15,911 log Internal Server Error: /fecaf/docs
+Traceback (most recent call last):
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 35, in get
+    return render(request, 'documentacao.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\templatetags\static.py", line 171, in do_static
+    return StaticNode.handle_token(parser, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\templatetags\static.py", line 145, in handle_token
+    path = parser.compile_filter(bits[1])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ''media/icons8-copiar-50.png' from ''media/icons8-copiar-50.png'
+WARNING 2023-10-02 15:31:16,050 log Not Found: /favicon.ico
+WARNING 2023-10-02 15:35:07,278 log Not Found: /favicon.ico
+WARNING 2023-10-02 15:35:37,873 log Not Found: /favicon.ico
+WARNING 2023-10-02 15:35:50,013 log Not Found: /favicon.ico
+WARNING 2023-10-02 15:39:54,232 log Not Found: /favicon.ico
+WARNING 2023-10-02 16:18:23,156 log Not Found: /favicon.ico

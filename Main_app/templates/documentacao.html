@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="{% static 'js/default.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/default.css' %}">
+    <link rel="stylesheet" href="{% static 'css/docs.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100">
+    <title>Documentação</title>
+</head>
+<body>
+    {% include 'elements/menu.html' %}
+    <h1 class="title">Projeto de integração de interface web para controle de arduinos ESP32</h1><br>
+    <h2 class="title">Requirements:</h2>
+    <div class="code requirements">
+        <p id="text-copy">
+        asgiref             3.7.2 <br>
+        certifi             2023.7.22 <br>
+        charset-normalizer  3.2.0 <br>
+        Django              4.2.5 <br>
+        djangorestframework 3.14.0 <br>
+        idna                3.4 <br>
+        numpy               1.26.0 <br>
+        pip                 23.2.1 <br>
+        pytz                2023.3.post1 <br>
+        requests            2.31.0 <br>
+        setuptools          65.5.0 <br>
+        sqlparse            0.4.4 <br>
+        tzdata              2023.3 <br>
+        urllib3             2.0.5 <br>
+        </p>
+        <div class="copy-button">
+            <button onclick="copyToClipboard()"></button>
+        </div>
+    </div>
+</body>
+</html>
