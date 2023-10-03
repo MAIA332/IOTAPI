@@ -23,7 +23,26 @@ class IndexView(APIView):
         t = value.split("-")
         self.states[t[1]] = t[0]
 
+        app_config = apps.get_app_config('Main_app')
+        Integrations = app_config.Integrations('http://10.0.50.137')
+
+        route_func ={
+            "lamp":{
+                "ON":"/ligar-lamp",
+                "OFF":"/desligar-lamp"
+            },
+            "fan":{
+                "ON":"/ligar-fan",
+                "OFF":"/desligar-fan"
+            }
+        }
+
         print(t)
+        print(f"{t[1]} IS {t[0]}")
+
+        cmd = Integrations.get(route_func[t[1]][t[0]])
+        print(cmd)
+
         print(self.states)
         data = [self.states]
 
@@ -33,3 +52,12 @@ class IndexView(APIView):
 class DocumentacaoView(APIView):
     def get(self,request):
         return render(request, 'documentacao.html')
+    
+class DashboardView(APIView):
+    def get(self,request):
+        return render(request, 'dashboard.html')
+    
+    def post(self,request):
+        data = request.data
+        value = data["dados"]
+        print(value)

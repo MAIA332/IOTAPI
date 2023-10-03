@@ -7,4 +7,5 @@ urlpatterns = [
     path('', IndexView.as_view(), name="home"),
     path('docs', DocumentacaoView.as_view(), name="docs"),
     path('home', RedirectView.as_view(url='/fecaf/')),
+    path('dash', DashboardView.as_view(),name='dash'),
 ]

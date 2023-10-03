@@ -1,0 +1,8 @@
+label{
+    color: var(--white);
+}
+
+input[type="text"]{
+    color: var(--defaultbg);
+    font-weight: bold;
+}

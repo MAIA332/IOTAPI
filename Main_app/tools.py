@@ -8,5 +8,17 @@ class Metrics:
         return co2_estimado
     
 
-a = Metrics()
-print(f"Nivel estimado de CO2: {a.vant_hoff(400,0.5,0.3)}")
+class Integrations:
+    def __init__(self,ip) :
+        self.ip = ip
+        self.request = __import__("requests")
+
+    def post(self,route,params):
+        pass
+
+    def get(self,route):
+        route = self.ip + route
+        response = self.request.get(route)
+        
+        if response:
+            return response

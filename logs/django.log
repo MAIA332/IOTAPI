@@ -296,3 +296,227 @@ WARNING 2023-10-02 15:35:37,873 log Not Found: /favicon.ico
 WARNING 2023-10-02 15:35:50,013 log Not Found: /favicon.ico
 WARNING 2023-10-02 15:39:54,232 log Not Found: /favicon.ico
 WARNING 2023-10-02 16:18:23,156 log Not Found: /favicon.ico
+INFO 2023-10-03 08:40:44,953 autoreload Watching for file changes with StatReloader
+WARNING 2023-10-03 08:40:50,440 log Not Found: /
+WARNING 2023-10-03 08:40:50,526 log Not Found: /favicon.ico
+WARNING 2023-10-03 08:43:16,529 log Not Found: /favicon.ico
+INFO 2023-10-03 08:43:19,885 autoreload Watching for file changes with StatReloader
+WARNING 2023-10-03 09:55:51,084 log Not Found: /favicon.ico
+INFO 2023-10-03 10:00:27,932 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-03 10:00:28,984 autoreload Watching for file changes with StatReloader
+INFO 2023-10-03 10:01:03,235 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\urls.py changed, reloading.
+INFO 2023-10-03 10:01:04,091 autoreload Watching for file changes with StatReloader
+INFO 2023-10-03 11:03:04,160 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-03 11:03:04,945 autoreload Watching for file changes with StatReloader
+WARNING 2023-10-03 11:06:27,257 log Not Found: /favicon.ico
+WARNING 2023-10-03 11:10:44,412 log Not Found: /favicon.ico
+INFO 2023-10-03 11:33:18,782 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-03 11:33:19,668 autoreload Watching for file changes with StatReloader
+INFO 2023-10-03 11:53:30,399 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-03 11:53:31,168 autoreload Watching for file changes with StatReloader
+INFO 2023-10-03 13:25:08,779 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-03 13:25:09,587 autoreload Watching for file changes with StatReloader
+INFO 2023-10-03 13:25:24,593 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-03 13:25:25,436 autoreload Watching for file changes with StatReloader
+INFO 2023-10-03 13:33:09,311 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\apps.py changed, reloading.
+INFO 2023-10-03 13:33:10,223 autoreload Watching for file changes with StatReloader
+INFO 2023-10-03 13:38:23,088 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\apps.py changed, reloading.
+INFO 2023-10-03 13:38:23,840 autoreload Watching for file changes with StatReloader
+INFO 2023-10-03 13:38:32,991 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-03 13:38:33,816 autoreload Watching for file changes with StatReloader
+INFO 2023-10-03 13:44:13,950 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\tools.py changed, reloading.
+INFO 2023-10-03 13:44:14,734 autoreload Watching for file changes with StatReloader
+INFO 2023-10-03 13:44:51,044 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\tools.py changed, reloading.
+INFO 2023-10-03 13:44:52,046 autoreload Watching for file changes with StatReloader
+INFO 2023-10-03 13:45:18,372 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-03 13:45:19,121 autoreload Watching for file changes with StatReloader
+INFO 2023-10-03 13:46:00,248 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-03 13:46:00,999 autoreload Watching for file changes with StatReloader
+INFO 2023-10-03 13:46:40,892 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-03 13:46:41,639 autoreload Watching for file changes with StatReloader
+ERROR 2023-10-03 13:47:05,038 log Internal Server Error: /fecaf/
+Traceback (most recent call last):
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 32, in post
+    cmd = Integrations.get("/execute")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\tools.py", line 21, in get
+    response = self.requests.get(route)
+               ^^^^^^^^^^^^^
+AttributeError: 'Integrations' object has no attribute 'requests'
+INFO 2023-10-03 13:47:29,223 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\tools.py changed, reloading.
+INFO 2023-10-03 13:47:30,012 autoreload Watching for file changes with StatReloader
+ERROR 2023-10-03 13:47:36,360 log Internal Server Error: /fecaf/
+Traceback (most recent call last):
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 32, in post
+    cmd = Integrations.get("/execute")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\tools.py", line 21, in get
+    response = self.request.get(route)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '10.0.50.137/execute': No scheme supplied. Perhaps you meant https://10.0.50.137/execute?
+INFO 2023-10-03 13:48:07,259 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\tools.py changed, reloading.
+INFO 2023-10-03 13:48:08,008 autoreload Watching for file changes with StatReloader
+ERROR 2023-10-03 13:48:11,904 log Internal Server Error: /fecaf/
+Traceback (most recent call last):
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 32, in post
+    cmd = Integrations.get("/execute")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\tools.py", line 21, in get
+    response = "http://"+self.request.get(route)
+                         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '10.0.50.137/execute': No scheme supplied. Perhaps you meant https://10.0.50.137/execute?
+INFO 2023-10-03 13:48:46,417 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\tools.py changed, reloading.
+INFO 2023-10-03 13:48:47,185 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-03 13:49:06,907 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
+DEBUG 2023-10-03 13:49:07,300 connectionpool http://10.0.50.137:80 "GET /execute HTTP/1.1" 200 37
+INFO 2023-10-03 13:51:56,121 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\tools.py changed, reloading.
+INFO 2023-10-03 13:51:56,903 autoreload Watching for file changes with StatReloader
+INFO 2023-10-03 13:52:13,295 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-03 13:52:14,048 autoreload Watching for file changes with StatReloader
+INFO 2023-10-03 13:52:17,657 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-03 13:52:18,630 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-03 14:15:06,944 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
+DEBUG 2023-10-03 14:15:10,548 connectionpool http://10.0.50.137:80 "GET /ligar-fan HTTP/1.1" 200 37
+INFO 2023-10-03 14:22:31,934 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-03 14:22:32,898 autoreload Watching for file changes with StatReloader
+INFO 2023-10-03 14:24:14,636 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-03 14:24:15,509 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-03 14:34:51,242 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
+DEBUG 2023-10-03 14:34:51,365 connectionpool http://10.0.50.137:80 "GET /ligar-lamp HTTP/1.1" 200 37
+DEBUG 2023-10-03 14:35:02,304 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
+DEBUG 2023-10-03 14:35:02,457 connectionpool http://10.0.50.137:80 "GET /desligar-lamp HTTP/1.1" 200 38
+DEBUG 2023-10-03 14:35:13,119 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
+DEBUG 2023-10-03 14:35:13,274 connectionpool http://10.0.50.137:80 "GET /ligar-fan HTTP/1.1" 200 37
+DEBUG 2023-10-03 14:35:17,976 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
+DEBUG 2023-10-03 14:35:20,651 connectionpool http://10.0.50.137:80 "GET /desligar-fan HTTP/1.1" 200 38
+WARNING 2023-10-03 14:55:01,680 log Not Found: /favicon.ico
+DEBUG 2023-10-03 14:55:15,627 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
+DEBUG 2023-10-03 14:55:15,762 connectionpool http://10.0.50.137:80 "GET /ligar-lamp HTTP/1.1" 200 37
+DEBUG 2023-10-03 14:55:35,547 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
+DEBUG 2023-10-03 14:55:35,828 connectionpool http://10.0.50.137:80 "GET /desligar-lamp HTTP/1.1" 200 38
+DEBUG 2023-10-03 14:59:59,754 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
+DEBUG 2023-10-03 15:00:02,840 connectionpool http://10.0.50.137:80 "GET /ligar-lamp HTTP/1.1" 200 37
+DEBUG 2023-10-03 15:00:31,126 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
+DEBUG 2023-10-03 15:00:31,503 connectionpool http://10.0.50.137:80 "GET /desligar-lamp HTTP/1.1" 200 38
+INFO 2023-10-03 15:10:37,065 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-03 15:10:37,891 autoreload Watching for file changes with StatReloader
+INFO 2023-10-03 15:10:54,964 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-03 15:10:55,727 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-03 15:11:12,138 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
+DEBUG 2023-10-03 15:11:18,860 connectionpool http://10.0.50.137:80 "GET /ligar-lamp HTTP/1.1" 200 37
+INFO 2023-10-03 15:11:44,493 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-03 15:11:45,258 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-03 15:11:51,050 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
+DEBUG 2023-10-03 15:11:51,434 connectionpool http://10.0.50.137:80 "GET /desligar-lamp HTTP/1.1" 200 38
+DEBUG 2023-10-03 15:21:10,665 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
+DEBUG 2023-10-03 15:21:26,931 connectionpool http://10.0.50.137:80 "GET /ligar-lamp HTTP/1.1" 200 37
+DEBUG 2023-10-03 15:27:09,110 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
+DEBUG 2023-10-03 15:27:13,807 connectionpool http://10.0.50.137:80 "GET /desligar-lamp HTTP/1.1" 200 38
+DEBUG 2023-10-03 15:35:21,401 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
+DEBUG 2023-10-03 15:35:22,135 connectionpool http://10.0.50.137:80 "GET /ligar-lamp HTTP/1.1" 200 37
+DEBUG 2023-10-03 15:35:30,565 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
+DEBUG 2023-10-03 15:35:30,890 connectionpool http://10.0.50.137:80 "GET /desligar-lamp HTTP/1.1" 200 38
+DEBUG 2023-10-03 15:35:43,253 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
+DEBUG 2023-10-03 15:35:43,611 connectionpool http://10.0.50.137:80 "GET /ligar-lamp HTTP/1.1" 200 37
+DEBUG 2023-10-03 15:35:45,948 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
+DEBUG 2023-10-03 15:35:46,155 connectionpool http://10.0.50.137:80 "GET /desligar-lamp HTTP/1.1" 200 38
+DEBUG 2023-10-03 15:50:49,149 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
+DEBUG 2023-10-03 15:50:49,270 connectionpool http://10.0.50.137:80 "GET /ligar-lamp HTTP/1.1" 200 37
+DEBUG 2023-10-03 15:51:14,306 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
+DEBUG 2023-10-03 15:51:14,366 connectionpool http://10.0.50.137:80 "GET /desligar-lamp HTTP/1.1" 200 38
