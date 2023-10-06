@@ -19,5 +19,10 @@ API de comunicação da estufa
 ![image](https://github.com/MAIA332/IOTAPI/assets/67965680/7483ecae-9ac2-47fd-a943-c195e63ee3c8)
 ![image](https://github.com/MAIA332/IOTAPI/assets/67965680/22d3fef5-457e-4428-97c5-e4ddb40052ea)
 
+# Pagina de logs:
+
+![image](https://github.com/MAIA332/IOTAPI/assets/67965680/1b7af48d-24e1-4cc3-864a-0784c2f76d93)
+
+
 
 
