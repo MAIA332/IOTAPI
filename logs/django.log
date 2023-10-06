@@ -1,522 +1,161 @@
-WARNING 2023-10-02 09:54:52,632 log Not Found: /favicon.ico
-WARNING 2023-10-02 09:57:33,119 log Not Found: /favicon.ico
-WARNING 2023-10-02 09:58:55,767 log Not Found: /favicon.ico
-WARNING 2023-10-02 09:59:03,244 log Not Found: /favicon.ico
-WARNING 2023-10-02 11:04:35,169 log Not Found: /favicon.ico
-WARNING 2023-10-02 11:05:13,727 log Not Found: /favicon.ico
-WARNING 2023-10-02 11:06:38,493 log Not Found: /favicon.ico
-WARNING 2023-10-02 11:06:39,224 log Not Found: /favicon.ico
-WARNING 2023-10-02 11:06:45,745 log Not Found: /favicon.ico
-WARNING 2023-10-02 11:06:53,788 log Not Found: /favicon.ico
-WARNING 2023-10-02 11:08:22,735 log Not Found: /favicon.ico
-INFO 2023-10-02 11:20:30,041 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-02 11:20:30,988 autoreload Watching for file changes with StatReloader
-INFO 2023-10-02 11:22:18,001 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-02 11:22:18,770 autoreload Watching for file changes with StatReloader
-WARNING 2023-10-02 11:23:05,864 log Not Found: /favicon.ico
-INFO 2023-10-02 11:32:58,071 autoreload Watching for file changes with StatReloader
-INFO 2023-10-02 11:34:38,558 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-02 11:34:39,461 autoreload Watching for file changes with StatReloader
-INFO 2023-10-02 12:15:25,964 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-02 12:15:26,889 autoreload Watching for file changes with StatReloader
-INFO 2023-10-02 12:22:00,751 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-02 12:22:01,624 autoreload Watching for file changes with StatReloader
-INFO 2023-10-02 12:22:05,246 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\urls.py changed, reloading.
-INFO 2023-10-02 12:22:06,001 autoreload Watching for file changes with StatReloader
-WARNING 2023-10-02 12:22:29,981 log Not Found: /fecaf/documentacao
-WARNING 2023-10-02 12:22:34,680 log Not Found: /fecaf/docs
-WARNING 2023-10-02 12:22:44,036 log Not Found: /fecaf/docs
-INFO 2023-10-02 12:22:49,730 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\urls.py changed, reloading.
-INFO 2023-10-02 12:22:50,487 autoreload Watching for file changes with StatReloader
-WARNING 2023-10-02 12:22:52,278 log Not Found: /fecaf/docs
-WARNING 2023-10-02 12:22:53,308 log Not Found: /fecaf/docs
-WARNING 2023-10-02 12:22:53,337 log Not Found: /favicon.ico
-INFO 2023-10-02 12:26:26,997 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\urls.py changed, reloading.
-INFO 2023-10-02 12:26:27,884 autoreload Watching for file changes with StatReloader
-WARNING 2023-10-02 12:26:32,498 log Not Found: /fecaf/docs
-WARNING 2023-10-02 12:26:32,942 log Not Found: /fecaf/docs
-WARNING 2023-10-02 12:26:33,268 log Not Found: /fecaf/docs
-WARNING 2023-10-02 12:26:33,446 log Not Found: /fecaf/docs
-WARNING 2023-10-02 12:26:33,613 log Not Found: /fecaf/docs
-WARNING 2023-10-02 12:26:34,098 log Not Found: /fecaf/docs
-WARNING 2023-10-02 12:26:34,268 log Not Found: /fecaf/docs
-WARNING 2023-10-02 12:26:34,445 log Not Found: /fecaf/docs
-WARNING 2023-10-02 12:26:34,759 log Not Found: /fecaf/docs
-WARNING 2023-10-02 12:26:35,045 log Not Found: /fecaf/docs
-WARNING 2023-10-02 12:26:35,310 log Not Found: /fecaf/docs
-INFO 2023-10-02 12:26:41,104 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\urls.py changed, reloading.
-INFO 2023-10-02 12:26:41,960 autoreload Watching for file changes with StatReloader
-ERROR 2023-10-02 12:28:56,428 log Internal Server Error: /fecaf/docs
+INFO 2023-10-06 16:41:48,290 autoreload D:\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-06 16:41:48,932 autoreload Watching for file changes with StatReloader
+INFO 2023-10-06 16:41:53,297 autoreload D:\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-06 16:41:53,915 autoreload Watching for file changes with StatReloader
+INFO 2023-10-06 16:43:16,536 autoreload D:\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-06 16:43:17,191 autoreload Watching for file changes with StatReloader
+INFO 2023-10-06 16:44:02,813 autoreload D:\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-06 16:44:03,424 autoreload Watching for file changes with StatReloader
+INFO 2023-10-06 16:44:36,956 autoreload D:\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-06 16:44:37,573 autoreload Watching for file changes with StatReloader
+WARNING 2023-10-06 16:44:39,827 log Not Found: /favicon.ico
+INFO 2023-10-06 16:45:37,841 autoreload D:\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-06 16:45:38,440 autoreload Watching for file changes with StatReloader
+INFO 2023-10-06 16:46:23,045 autoreload D:\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-06 16:46:23,672 autoreload Watching for file changes with StatReloader
+ERROR 2023-10-06 16:47:22,107 log Internal Server Error: /fecaf/logs
 Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
-    compile_func = self.tags[command]
-                   ~~~~~~~~~^^^^^^^^^
-KeyError: 'static'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
     response = get_response(request)
                ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
     return view_func(*args, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\views\generic\base.py", line 104, in view
     return self.dispatch(request, *args, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
     response = self.handle_exception(exc)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
     self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
     raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
     response = handler(request, *args, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 35, in get
-    return render(request, 'documentacao.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
+  File "D:\IOTAPI\Main_app\views.py", line 79, in get
+    return render(request, 'logs.html',{"data":text})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\shortcuts.py", line 24, in render
     content = loader.render_to_string(template_name, context, request, using=using)
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
     template = get_template(template_name, using=using)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\loader.py", line 15, in get_template
     return engine.get_template(template_name)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
     return Template(self.engine.get_template(template_name), self)
                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\engine.py", line 175, in get_template
     template, origin = self.find_template(template_name)
                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\engine.py", line 157, in find_template
     template = loader.get_template(name, skip=skip)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
     template = super().get_template(template_name, skip)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
     return Template(
            ^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\base.py", line 154, in __init__
     self.nodelist = self.compile_nodelist()
                     ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
     return parser.parse()
            ^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
-    self.invalid_block_tag(token, command, parse_until)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
-    raise self.error(
-django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'static'. Did you forget to register or load this tag?
-WARNING 2023-10-02 12:28:56,625 log Not Found: /favicon.ico
-WARNING 2023-10-02 12:29:07,057 log Not Found: /favicon.ico
-WARNING 2023-10-02 13:37:18,884 log Not Found: /favicon.ico
-WARNING 2023-10-02 13:40:40,758 log Not Found: /fecaf/home
-INFO 2023-10-02 13:43:25,970 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\urls.py changed, reloading.
-INFO 2023-10-02 13:43:26,816 autoreload Watching for file changes with StatReloader
-WARNING 2023-10-02 13:46:52,178 log Not Found: /favicon.ico
-WARNING 2023-10-02 13:46:58,376 log Not Found: /favicon.ico
-WARNING 2023-10-02 13:47:45,734 log Not Found: /favicon.ico
-WARNING 2023-10-02 13:49:40,266 log Not Found: /favicon.ico
-WARNING 2023-10-02 13:50:12,277 log Not Found: /favicon.ico
-WARNING 2023-10-02 14:07:39,518 log Not Found: /favicon.ico
-WARNING 2023-10-02 14:08:24,914 log Not Found: /favicon.ico
-WARNING 2023-10-02 14:10:23,437 log Not Found: /favicon.ico
-WARNING 2023-10-02 14:10:58,051 log Not Found: /favicon.ico
-WARNING 2023-10-02 14:11:33,589 log Not Found: /favicon.ico
-WARNING 2023-10-02 14:20:32,752 log Not Found: /favicon.ico
-WARNING 2023-10-02 14:22:22,187 log Not Found: /favicon.ico
-WARNING 2023-10-02 14:22:30,353 log Not Found: /favicon.ico
-WARNING 2023-10-02 14:23:14,161 log Not Found: /favicon.ico
-WARNING 2023-10-02 15:17:27,233 log Not Found: /favicon.ico
-WARNING 2023-10-02 15:18:13,546 log Not Found: /favicon.ico
-WARNING 2023-10-02 15:29:16,543 log Not Found: /favicon.ico
-WARNING 2023-10-02 15:29:18,116 log Not Found: /favicon.ico
-WARNING 2023-10-02 15:29:48,136 log Not Found: /favicon.ico
-WARNING 2023-10-02 15:30:12,874 log Not Found: /favicon.ico
-ERROR 2023-10-02 15:31:02,379 log Internal Server Error: /fecaf/docs
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 35, in get
-    return render(request, 'documentacao.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 15, in get_template
-    return engine.get_template(template_name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
-    return Template(self.engine.get_template(template_name), self)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
-    template, origin = self.find_template(template_name)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
-    template = loader.get_template(name, skip=skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
-    template = super().get_template(template_name, skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
-    return Template(
-           ^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
-    self.nodelist = self.compile_nodelist()
-                    ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
-    return parser.parse()
-           ^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\base.py", line 513, in parse
     raise self.error(token, e)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\base.py", line 511, in parse
     compiled_result = compile_func(self, token)
                       ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\templatetags\static.py", line 171, in do_static
-    return StaticNode.handle_token(parser, token)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\templatetags\static.py", line 145, in handle_token
-    path = parser.compile_filter(bits[1])
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 600, in compile_filter
-    return FilterExpression(token, self)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 703, in __init__
-    raise TemplateSyntaxError(
-django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ''media/icons8-copiar-50.png' from ''media/icons8-copiar-50.png'
-ERROR 2023-10-02 15:31:15,911 log Internal Server Error: /fecaf/docs
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 20: 'for'. Looking for one of: empty, endfor.
+ERROR 2023-10-06 16:47:22,809 log Internal Server Error: /fecaf/logs
 Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
     response = get_response(request)
                ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
     return view_func(*args, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\views\generic\base.py", line 104, in view
     return self.dispatch(request, *args, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
     response = self.handle_exception(exc)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
     self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
     raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
     response = handler(request, *args, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 35, in get
-    return render(request, 'documentacao.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
+  File "D:\IOTAPI\Main_app\views.py", line 79, in get
+    return render(request, 'logs.html',{"data":text})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\shortcuts.py", line 24, in render
     content = loader.render_to_string(template_name, context, request, using=using)
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
     template = get_template(template_name, using=using)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\loader.py", line 15, in get_template
     return engine.get_template(template_name)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
     return Template(self.engine.get_template(template_name), self)
                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\engine.py", line 175, in get_template
     template, origin = self.find_template(template_name)
                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\engine.py", line 157, in find_template
     template = loader.get_template(name, skip=skip)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
     template = super().get_template(template_name, skip)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
     return Template(
            ^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\base.py", line 154, in __init__
     self.nodelist = self.compile_nodelist()
                     ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
     return parser.parse()
            ^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\base.py", line 513, in parse
     raise self.error(token, e)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\base.py", line 511, in parse
     compiled_result = compile_func(self, token)
                       ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\templatetags\static.py", line 171, in do_static
-    return StaticNode.handle_token(parser, token)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\templatetags\static.py", line 145, in handle_token
-    path = parser.compile_filter(bits[1])
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 600, in compile_filter
-    return FilterExpression(token, self)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 703, in __init__
-    raise TemplateSyntaxError(
-django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ''media/icons8-copiar-50.png' from ''media/icons8-copiar-50.png'
-WARNING 2023-10-02 15:31:16,050 log Not Found: /favicon.ico
-WARNING 2023-10-02 15:35:07,278 log Not Found: /favicon.ico
-WARNING 2023-10-02 15:35:37,873 log Not Found: /favicon.ico
-WARNING 2023-10-02 15:35:50,013 log Not Found: /favicon.ico
-WARNING 2023-10-02 15:39:54,232 log Not Found: /favicon.ico
-WARNING 2023-10-02 16:18:23,156 log Not Found: /favicon.ico
-INFO 2023-10-03 08:40:44,953 autoreload Watching for file changes with StatReloader
-WARNING 2023-10-03 08:40:50,440 log Not Found: /
-WARNING 2023-10-03 08:40:50,526 log Not Found: /favicon.ico
-WARNING 2023-10-03 08:43:16,529 log Not Found: /favicon.ico
-INFO 2023-10-03 08:43:19,885 autoreload Watching for file changes with StatReloader
-WARNING 2023-10-03 09:55:51,084 log Not Found: /favicon.ico
-INFO 2023-10-03 10:00:27,932 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-03 10:00:28,984 autoreload Watching for file changes with StatReloader
-INFO 2023-10-03 10:01:03,235 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\urls.py changed, reloading.
-INFO 2023-10-03 10:01:04,091 autoreload Watching for file changes with StatReloader
-INFO 2023-10-03 11:03:04,160 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-03 11:03:04,945 autoreload Watching for file changes with StatReloader
-WARNING 2023-10-03 11:06:27,257 log Not Found: /favicon.ico
-WARNING 2023-10-03 11:10:44,412 log Not Found: /favicon.ico
-INFO 2023-10-03 11:33:18,782 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-03 11:33:19,668 autoreload Watching for file changes with StatReloader
-INFO 2023-10-03 11:53:30,399 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-03 11:53:31,168 autoreload Watching for file changes with StatReloader
-INFO 2023-10-03 13:25:08,779 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-03 13:25:09,587 autoreload Watching for file changes with StatReloader
-INFO 2023-10-03 13:25:24,593 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-03 13:25:25,436 autoreload Watching for file changes with StatReloader
-INFO 2023-10-03 13:33:09,311 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\apps.py changed, reloading.
-INFO 2023-10-03 13:33:10,223 autoreload Watching for file changes with StatReloader
-INFO 2023-10-03 13:38:23,088 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\apps.py changed, reloading.
-INFO 2023-10-03 13:38:23,840 autoreload Watching for file changes with StatReloader
-INFO 2023-10-03 13:38:32,991 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-03 13:38:33,816 autoreload Watching for file changes with StatReloader
-INFO 2023-10-03 13:44:13,950 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\tools.py changed, reloading.
-INFO 2023-10-03 13:44:14,734 autoreload Watching for file changes with StatReloader
-INFO 2023-10-03 13:44:51,044 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\tools.py changed, reloading.
-INFO 2023-10-03 13:44:52,046 autoreload Watching for file changes with StatReloader
-INFO 2023-10-03 13:45:18,372 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-03 13:45:19,121 autoreload Watching for file changes with StatReloader
-INFO 2023-10-03 13:46:00,248 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-03 13:46:00,999 autoreload Watching for file changes with StatReloader
-INFO 2023-10-03 13:46:40,892 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-03 13:46:41,639 autoreload Watching for file changes with StatReloader
-ERROR 2023-10-03 13:47:05,038 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 32, in post
-    cmd = Integrations.get("/execute")
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\tools.py", line 21, in get
-    response = self.requests.get(route)
-               ^^^^^^^^^^^^^
-AttributeError: 'Integrations' object has no attribute 'requests'
-INFO 2023-10-03 13:47:29,223 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\tools.py changed, reloading.
-INFO 2023-10-03 13:47:30,012 autoreload Watching for file changes with StatReloader
-ERROR 2023-10-03 13:47:36,360 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 32, in post
-    cmd = Integrations.get("/execute")
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\tools.py", line 21, in get
-    response = self.request.get(route)
-               ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 73, in get
-    return request("get", url, params=params, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 59, in request
-    return session.request(method=method, url=url, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 575, in request
-    prep = self.prepare_request(req)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 486, in prepare_request
-    p.prepare(
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\models.py", line 368, in prepare
-    self.prepare_url(url, params)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\models.py", line 439, in prepare_url
-    raise MissingSchema(
-requests.exceptions.MissingSchema: Invalid URL '10.0.50.137/execute': No scheme supplied. Perhaps you meant https://10.0.50.137/execute?
-INFO 2023-10-03 13:48:07,259 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\tools.py changed, reloading.
-INFO 2023-10-03 13:48:08,008 autoreload Watching for file changes with StatReloader
-ERROR 2023-10-03 13:48:11,904 log Internal Server Error: /fecaf/
-Traceback (most recent call last):
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py", line 32, in post
-    cmd = Integrations.get("/execute")
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\tools.py", line 21, in get
-    response = "http://"+self.request.get(route)
-                         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 73, in get
-    return request("get", url, params=params, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 59, in request
-    return session.request(method=method, url=url, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 575, in request
-    prep = self.prepare_request(req)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 486, in prepare_request
-    p.prepare(
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\models.py", line 368, in prepare
-    self.prepare_url(url, params)
-  File "C:\Users\Lukas\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\models.py", line 439, in prepare_url
-    raise MissingSchema(
-requests.exceptions.MissingSchema: Invalid URL '10.0.50.137/execute': No scheme supplied. Perhaps you meant https://10.0.50.137/execute?
-INFO 2023-10-03 13:48:46,417 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\tools.py changed, reloading.
-INFO 2023-10-03 13:48:47,185 autoreload Watching for file changes with StatReloader
-DEBUG 2023-10-03 13:49:06,907 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
-DEBUG 2023-10-03 13:49:07,300 connectionpool http://10.0.50.137:80 "GET /execute HTTP/1.1" 200 37
-INFO 2023-10-03 13:51:56,121 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\tools.py changed, reloading.
-INFO 2023-10-03 13:51:56,903 autoreload Watching for file changes with StatReloader
-INFO 2023-10-03 13:52:13,295 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-03 13:52:14,048 autoreload Watching for file changes with StatReloader
-INFO 2023-10-03 13:52:17,657 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-03 13:52:18,630 autoreload Watching for file changes with StatReloader
-DEBUG 2023-10-03 14:15:06,944 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
-DEBUG 2023-10-03 14:15:10,548 connectionpool http://10.0.50.137:80 "GET /ligar-fan HTTP/1.1" 200 37
-INFO 2023-10-03 14:22:31,934 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-03 14:22:32,898 autoreload Watching for file changes with StatReloader
-INFO 2023-10-03 14:24:14,636 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-03 14:24:15,509 autoreload Watching for file changes with StatReloader
-DEBUG 2023-10-03 14:34:51,242 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
-DEBUG 2023-10-03 14:34:51,365 connectionpool http://10.0.50.137:80 "GET /ligar-lamp HTTP/1.1" 200 37
-DEBUG 2023-10-03 14:35:02,304 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
-DEBUG 2023-10-03 14:35:02,457 connectionpool http://10.0.50.137:80 "GET /desligar-lamp HTTP/1.1" 200 38
-DEBUG 2023-10-03 14:35:13,119 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
-DEBUG 2023-10-03 14:35:13,274 connectionpool http://10.0.50.137:80 "GET /ligar-fan HTTP/1.1" 200 37
-DEBUG 2023-10-03 14:35:17,976 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
-DEBUG 2023-10-03 14:35:20,651 connectionpool http://10.0.50.137:80 "GET /desligar-fan HTTP/1.1" 200 38
-WARNING 2023-10-03 14:55:01,680 log Not Found: /favicon.ico
-DEBUG 2023-10-03 14:55:15,627 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
-DEBUG 2023-10-03 14:55:15,762 connectionpool http://10.0.50.137:80 "GET /ligar-lamp HTTP/1.1" 200 37
-DEBUG 2023-10-03 14:55:35,547 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
-DEBUG 2023-10-03 14:55:35,828 connectionpool http://10.0.50.137:80 "GET /desligar-lamp HTTP/1.1" 200 38
-DEBUG 2023-10-03 14:59:59,754 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
-DEBUG 2023-10-03 15:00:02,840 connectionpool http://10.0.50.137:80 "GET /ligar-lamp HTTP/1.1" 200 37
-DEBUG 2023-10-03 15:00:31,126 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
-DEBUG 2023-10-03 15:00:31,503 connectionpool http://10.0.50.137:80 "GET /desligar-lamp HTTP/1.1" 200 38
-INFO 2023-10-03 15:10:37,065 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-03 15:10:37,891 autoreload Watching for file changes with StatReloader
-INFO 2023-10-03 15:10:54,964 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-03 15:10:55,727 autoreload Watching for file changes with StatReloader
-DEBUG 2023-10-03 15:11:12,138 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
-DEBUG 2023-10-03 15:11:18,860 connectionpool http://10.0.50.137:80 "GET /ligar-lamp HTTP/1.1" 200 37
-INFO 2023-10-03 15:11:44,493 autoreload C:\Users\Lukas\Desktop\git-\IOTAPI\Main_app\views.py changed, reloading.
-INFO 2023-10-03 15:11:45,258 autoreload Watching for file changes with StatReloader
-DEBUG 2023-10-03 15:11:51,050 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
-DEBUG 2023-10-03 15:11:51,434 connectionpool http://10.0.50.137:80 "GET /desligar-lamp HTTP/1.1" 200 38
-DEBUG 2023-10-03 15:21:10,665 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
-DEBUG 2023-10-03 15:21:26,931 connectionpool http://10.0.50.137:80 "GET /ligar-lamp HTTP/1.1" 200 37
-DEBUG 2023-10-03 15:27:09,110 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
-DEBUG 2023-10-03 15:27:13,807 connectionpool http://10.0.50.137:80 "GET /desligar-lamp HTTP/1.1" 200 38
-DEBUG 2023-10-03 15:35:21,401 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
-DEBUG 2023-10-03 15:35:22,135 connectionpool http://10.0.50.137:80 "GET /ligar-lamp HTTP/1.1" 200 37
-DEBUG 2023-10-03 15:35:30,565 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
-DEBUG 2023-10-03 15:35:30,890 connectionpool http://10.0.50.137:80 "GET /desligar-lamp HTTP/1.1" 200 38
-DEBUG 2023-10-03 15:35:43,253 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
-DEBUG 2023-10-03 15:35:43,611 connectionpool http://10.0.50.137:80 "GET /ligar-lamp HTTP/1.1" 200 37
-DEBUG 2023-10-03 15:35:45,948 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
-DEBUG 2023-10-03 15:35:46,155 connectionpool http://10.0.50.137:80 "GET /desligar-lamp HTTP/1.1" 200 38
-DEBUG 2023-10-03 15:50:49,149 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
-DEBUG 2023-10-03 15:50:49,270 connectionpool http://10.0.50.137:80 "GET /ligar-lamp HTTP/1.1" 200 37
-DEBUG 2023-10-03 15:51:14,306 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
-DEBUG 2023-10-03 15:51:14,366 connectionpool http://10.0.50.137:80 "GET /desligar-lamp HTTP/1.1" 200 38
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 20: 'for'. Looking for one of: empty, endfor.
+WARNING 2023-10-06 16:47:22,922 log Not Found: /favicon.ico
+INFO 2023-10-06 16:48:27,085 autoreload D:\IOTAPI\Main_app\views.py changed, reloading.
+INFO 2023-10-06 16:48:27,753 autoreload Watching for file changes with StatReloader
+WARNING 2023-10-06 18:49:02,083 log Not Found: /favicon.ico
+WARNING 2023-10-06 18:50:02,368 log Not Found: /favicon.ico
+WARNING 2023-10-06 19:03:37,232 log Not Found: /favicon.ico

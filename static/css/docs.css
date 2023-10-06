@@ -6,8 +6,9 @@
     background-color: var(--secondary_text);
     width: 60%;
     margin: 2% 0 0 20%;
-    height: 400px;
+    height: 500px;
     margin-bottom: 2%;
+    overflow-y: scroll;
 }
 
 .code p{
@@ -31,4 +32,8 @@
     width: 100%;
     border: none;
     cursor: pointer;
+}
+
+.diagrama{
+    margin: 1% 0 0 6%;
 }

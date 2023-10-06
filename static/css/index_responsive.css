@@ -1,0 +1,33 @@
+
+@media (min-width: 1300px) {
+     
+    .lampada{
+        margin: -6% 0 0 60%;
+    }
+
+    .section .text-info{
+        height: 360px;
+        width: 27%;
+        margin: -19% 0 0 0;
+        float: right;
+        background-color: var(--cardBack);
+        border-radius: 10px;
+    }
+
+    .vertical-rodape{
+        margin: 2% 0 0 4%;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        background-image: linear-gradient(to bottom right, var(--gradient-text-initial), var(--defaultbg));
+        -webkit-background-clip: text; 
+        color: transparent; 
+        font-size: 1.3em;
+        cursor: default;
+    }
+
+    .banner .title{
+        margin: 15% 0 0 32%;
+    }
+
+
+}

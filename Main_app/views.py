@@ -61,3 +61,13 @@ class DashboardView(APIView):
         data = request.data
         value = data["dados"]
         print(value)
+
+class LogsView(APIView):
+    def get(self,request):
+
+        with open('logs/django.log') as f:
+            lines = f.readlines()
+        
+        text = [l.split("\n") for l in lines]
+    
+        return render(request, 'logs.html',{"data":text})

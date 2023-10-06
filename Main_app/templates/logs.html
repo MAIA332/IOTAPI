@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Logs</title>
+        <script src="{% static 'js/default.js' %}"></script>
+        <link rel="stylesheet" href="{% static 'css/default.css' %}">
+        <link rel="stylesheet" href="{% static 'css/docs.css' %}">
+        <link rel="stylesheet" href="{% static 'css/logs.css' %}">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100">
+    </head>
+<body>
+    {% include 'elements/menu.html' %}
+    <h1 class="title">Projeto de integração de interface web para controle de arduinos ESP32</h1><br>
+    <h2 class="title">Logs:</h2>
+    <div class="code requirements">
+        <p id="text-copy">
+        {% for i in data%}
+            {{i.0}}<br>
+        {%endfor%}
+        </p>
+    </div>
+    
+</body>
+</html>
