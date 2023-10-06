@@ -7,7 +7,8 @@ API de comunicação da estufa
 
 # Painel de controle (BETA)
 
-![image](https://github.com/MAIA332/IOTAPI/assets/67965680/e50b0b7d-a575-4825-8dc3-dd3024bbafdf)
+![image](https://github.com/MAIA332/IOTAPI/assets/67965680/5ac140c8-2ad7-4127-adb0-52d9ecebdcdc)
+
 
 # Rodapé:
 
