@@ -148,3 +148,10 @@ form{
     color: var(--white);
     text-decoration: none;
 }
+
+.cards .valuefor{
+    position: absolute;
+    margin: 7% 0 0 9%;
+    font-size: 2.5em;
+    font-weight: bolder;
+}

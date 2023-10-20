@@ -29,5 +29,19 @@
         margin: 15% 0 0 32%;
     }
 
+}
+
+@media (min-width: 900px) {
+    
+    .vertical-rodape{
+        margin: 2% 0 0 4.5%;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        background-image: linear-gradient(to bottom right, var(--gradient-text-initial), var(--defaultbg));
+        -webkit-background-clip: text; 
+        color: transparent; 
+        font-size: 1.3em;
+        cursor: default;
+    }
 
 }
