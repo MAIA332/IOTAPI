@@ -24,6 +24,16 @@ Atualmente o projeto conta com a estruturação física e modelagem eletrônica 
 
 ```python manage.py runserver 0.0.0.0:8000```
 
+# Configurações:
+
+Será necessário alterar as seguintes configurações a baixo de acordo com as especificações da utilização:
+
+Em *Main_app* > *views.py*, alterar o IP do modulo de comunicação (ESP32)
+
+```
+27 Integrations = app_config.Integrations('http://10.0.50.137')
+```
+
 # Interface:
 
 ## Home page:

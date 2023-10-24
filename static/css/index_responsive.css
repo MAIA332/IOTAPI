@@ -34,7 +34,7 @@
 @media (min-width: 900px) {
     
     .vertical-rodape{
-        margin: 2% 0 0 4.5%;
+        margin: 2% 0 0 3%;
         writing-mode: vertical-rl;
         text-orientation: upright;
         background-image: linear-gradient(to bottom right, var(--gradient-text-initial), var(--defaultbg));
@@ -42,6 +42,10 @@
         color: transparent; 
         font-size: 1.3em;
         cursor: default;
+    }
+
+    .section .text-info{
+        margin: -26% 0 0 0;
     }
 
 }
