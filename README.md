@@ -32,7 +32,11 @@ Atualmente o projeto conta com a estruturação física e modelagem eletrônica 
 
 ## Painel de controle (BETA)
 
-![image](https://github.com/MAIA332/IOTAPI/assets/67965680/5ac140c8-2ad7-4127-adb0-52d9ecebdcdc)
+![image](https://github.com/MAIA332/IOTAPI/assets/67965680/4c022fc5-1acb-4a13-9b3f-5078ccaac4f7)
+
+
+![image](https://github.com/MAIA332/IOTAPI/assets/67965680/65f6354c-be0d-4c3c-8a85-e915cf542b8b)
+
 
 
 ## Rodapé:
