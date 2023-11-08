@@ -14,7 +14,11 @@ class Integrations:
         self.request = __import__("requests")
 
     def post(self,route,params):
-        route = self.ip + route
+        route = "http://"+self.ip + route
+        response = self.request.post(route, params=params)
+        
+        if response:
+            return response
 
     def get(self,route):
         route = self.ip + route

@@ -27,26 +27,37 @@ class IndexView(APIView):
 
         app_config = apps.get_app_config('Main_app')
         Settings = app_config.Settings()
-        Integrations = app_config.Integrations(Settings.configs.ip)
 
         print(f"\n ==== NEW POST === \n {t} \n {Settings.configs}")
         print(f"\n {t[1]} IS {t[0]}")
 
+        Integrations = app_config.Integrations(Settings.configs["ip"])
+
+
         route_func ={
-            "lamp":{
-                "ON":Settings.configs.baseroute,
-                "OFF":Settings.configs.baseroute
+            "lampT":{
+                "ON":"/ligar-lamp-termica",
+                "OFF":"/desligar-lamp-termica",
+                "method":"get",
             },
             "fan":{
-                "ON":Settings.configs.baseroute,
-                "OFF":Settings.configs.baseroute
+                "ON":"A",
+                "OFF":"B",
+                "method":"post"
             }
         }
 
         
+        data = {"params": route_func[t[1]][t[0]]}
+        print(data["params"])
 
-        cmd = Integrations.get(route_func[t[1]][t[0]])
-        print(cmd)
+        if route_func[t[1]]["method"] == "post":
+            cmd = Integrations.post("/test",data["params"])
+            print(cmd.text)
+
+        else:
+            cmd = Integrations.get(route_func[t[1]][t[0]])
+            print(cmd.text)
 
         print(self.states)
         data = [self.states]

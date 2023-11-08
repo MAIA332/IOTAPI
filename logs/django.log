@@ -539,3 +539,145 @@ INFO 2023-11-08 15:39:02,851 autoreload Watching for file changes with StatReloa
 INFO 2023-11-08 15:54:20,657 autoreload Watching for file changes with StatReloader
 INFO 2023-11-08 16:14:00,279 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/tools.py changed, reloading.
 INFO 2023-11-08 16:14:00,644 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 16:14:29,223 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 16:17:40,375 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 16:21:02,628 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 17:48:47,057 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/tools.py changed, reloading.
+INFO 2023-11-08 17:48:47,411 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 17:55:13,807 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/views.py changed, reloading.
+INFO 2023-11-08 17:55:14,160 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 17:56:02,271 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/views.py changed, reloading.
+INFO 2023-11-08 17:56:02,610 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 17:57:01,881 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/tools.py changed, reloading.
+INFO 2023-11-08 17:57:02,255 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 17:57:14,326 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-08 17:57:45,252 log Internal Server Error: /fecaf/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/views.py", line 30, in post
+    Integrations = app_config.Integrations(Settings.configs.ip)
+AttributeError: 'dict' object has no attribute 'ip'
+INFO 2023-11-08 17:58:53,372 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/views.py changed, reloading.
+INFO 2023-11-08 17:58:53,724 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 17:59:00,221 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-08 17:59:51,462 log Internal Server Error: /fecaf/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/views.py", line 34, in post
+    Integrations = app_config.Integrations(Settings.configs.ip)
+AttributeError: 'dict' object has no attribute 'ip'
+INFO 2023-11-08 18:00:23,979 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/views.py changed, reloading.
+INFO 2023-11-08 18:00:24,349 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-08 18:00:32,775 log Internal Server Error: /fecaf/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/views.py", line 51, in post
+    cmd = Integrations.post("/test",data["params"])
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/tools.py", line 18, in post
+    response = self.requests.post(route, data=params)
+AttributeError: 'Integrations' object has no attribute 'requests'
+INFO 2023-11-08 18:01:13,609 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/tools.py changed, reloading.
+INFO 2023-11-08 18:01:13,970 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-08 18:01:20,310 log Internal Server Error: /fecaf/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/views.py", line 51, in post
+    cmd = Integrations.post("/test",data["params"])
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/tools.py", line 18, in post
+    response = self.request.post(route, data=params)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 530, in request
+    prep = self.prepare_request(req)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 458, in prepare_request
+    p.prepare(
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 316, in prepare
+    self.prepare_url(url, params)
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 390, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '10.0.30.215/test': No schema supplied. Perhaps you meant http://10.0.30.215/test?
+INFO 2023-11-08 18:01:47,092 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/tools.py changed, reloading.
+INFO 2023-11-08 18:01:47,445 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-08 18:01:52,925 connectionpool Starting new HTTP connection (1): 10.0.30.215:80
+DEBUG 2023-11-08 18:01:52,968 connectionpool http://10.0.30.215:80 "POST /test HTTP/1.1" 200 2
+INFO 2023-11-08 18:02:56,035 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/tools.py changed, reloading.
+INFO 2023-11-08 18:02:56,389 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-08 18:03:06,893 connectionpool Starting new HTTP connection (1): 10.0.30.215:80
+DEBUG 2023-11-08 18:03:06,999 connectionpool http://10.0.30.215:80 "POST /test?A HTTP/1.1" 200 2
+DEBUG 2023-11-08 18:03:19,316 connectionpool Starting new HTTP connection (1): 10.0.30.215:80
+DEBUG 2023-11-08 18:03:19,383 connectionpool http://10.0.30.215:80 "POST /test?B HTTP/1.1" 200 2
+INFO 2023-11-08 18:12:05,205 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/views.py changed, reloading.
+INFO 2023-11-08 18:12:05,560 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 18:56:48,695 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/views.py changed, reloading.
+INFO 2023-11-08 18:56:49,040 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-08 19:05:20,403 connectionpool Starting new HTTP connection (1): 10.0.30.215:80
+DEBUG 2023-11-08 19:05:21,781 connectionpool http://10.0.30.215:80 "POST /test?A HTTP/1.1" 200 0
+INFO 2023-11-08 19:08:06,470 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 19:08:30,255 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/views.py changed, reloading.
+INFO 2023-11-08 19:08:30,620 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-08 19:08:39,889 connectionpool Starting new HTTP connection (1): 10.0.30.215:80
+DEBUG 2023-11-08 19:08:39,991 connectionpool http://10.0.30.215:80 "POST /test?A HTTP/1.1" 200 0
+INFO 2023-11-08 19:28:38,507 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/views.py changed, reloading.
+INFO 2023-11-08 19:28:38,863 autoreload Watching for file changes with StatReloader
