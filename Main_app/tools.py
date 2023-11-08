@@ -14,7 +14,7 @@ class Integrations:
         self.request = __import__("requests")
 
     def post(self,route,params):
-        pass
+        route = self.ip + route
 
     def get(self,route):
         route = self.ip + route
@@ -22,3 +22,9 @@ class Integrations:
         
         if response:
             return response
+
+class Settings:
+    def __init__(self):
+        self.json = __import__("json")
+        file = open('configs.json')
+        self.configs = self.json.load(file)

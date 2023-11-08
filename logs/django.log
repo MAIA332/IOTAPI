@@ -183,3 +183,359 @@ INFO 2023-10-24 15:15:11,003 autoreload Watching for file changes with StatReloa
 WARNING 2023-10-24 15:15:22,634 log Not Found: /
 WARNING 2023-10-24 15:15:22,708 log Not Found: /favicon.ico
 WARNING 2023-10-24 15:18:24,488 log Not Found: /favicon.ico
+INFO 2023-11-08 15:25:23,422 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-08 15:25:30,767 log Not Found: /
+WARNING 2023-11-08 15:25:30,806 log Not Found: /favicon.ico
+INFO 2023-11-08 15:26:52,198 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/views.py changed, reloading.
+INFO 2023-11-08 15:26:52,550 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 15:29:14,000 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/tools.py changed, reloading.
+INFO 2023-11-08 15:29:14,356 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 15:29:31,078 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/apps.py changed, reloading.
+INFO 2023-11-08 15:29:31,424 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 15:29:55,307 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/views.py changed, reloading.
+INFO 2023-11-08 15:29:55,667 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 15:31:24,898 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/views.py changed, reloading.
+INFO 2023-11-08 15:31:25,245 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 15:31:30,857 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-08 15:31:37,071 log Internal Server Error: /fecaf/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/views.py", line 30, in post
+    Settings = app_config.Settings()
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/tools.py", line 29, in __init__
+    self.file = self.json.load("configs.json")
+  File "/usr/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+INFO 2023-11-08 15:32:35,793 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/tools.py changed, reloading.
+INFO 2023-11-08 15:32:36,157 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-08 15:32:41,609 log Internal Server Error: /fecaf/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/views.py", line 30, in post
+    Settings = app_config.Settings()
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/tools.py", line 29, in __init__
+    self.file = self.json.loads("configs.json")
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO 2023-11-08 15:33:17,411 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/tools.py changed, reloading.
+INFO 2023-11-08 15:33:17,761 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-08 15:33:20,799 log Internal Server Error: /fecaf/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/views.py", line 30, in post
+    Settings = app_config.Settings()
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/tools.py", line 29, in __init__
+    self.file = self.json.load("configs.json")
+  File "/usr/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+INFO 2023-11-08 15:35:03,179 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/views.py changed, reloading.
+INFO 2023-11-08 15:35:03,537 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-08 15:35:12,967 log Internal Server Error: /fecaf/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/views.py", line 30, in post
+    Settings = app_config.Settings()
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/tools.py", line 29, in __init__
+    file = open('configs.json')
+  File "/usr/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+INFO 2023-11-08 15:35:21,903 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-08 15:35:25,151 log Internal Server Error: /fecaf/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/views.py", line 30, in post
+    Settings = app_config.Settings()
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/tools.py", line 29, in __init__
+    file = open('configs.json')
+FileNotFoundError: [Errno 2] No such file or directory: 'configs.json'
+ERROR 2023-11-08 15:35:52,158 log Internal Server Error: /fecaf/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/views.py", line 30, in post
+    Settings = app_config.Settings()
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/tools.py", line 30, in __init__
+    self.configs = self.json.loads("configs.json")
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2023-11-08 15:36:14,550 log Internal Server Error: /fecaf/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/views.py", line 30, in post
+    Settings = app_config.Settings()
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/tools.py", line 30, in __init__
+    self.configs = self.json.loads("configs.json")
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO 2023-11-08 15:36:27,854 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/tools.py changed, reloading.
+INFO 2023-11-08 15:36:28,217 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 15:36:32,280 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-08 15:36:35,147 log Internal Server Error: /fecaf/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/views.py", line 30, in post
+    Settings = app_config.Settings()
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/tools.py", line 30, in __init__
+    self.configs = self.json.load("configs.json")
+  File "/usr/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+INFO 2023-11-08 15:36:39,909 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/tools.py changed, reloading.
+INFO 2023-11-08 15:36:40,254 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 15:36:46,708 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/tools.py changed, reloading.
+INFO 2023-11-08 15:36:47,060 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 15:36:51,215 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-08 15:36:54,505 log Internal Server Error: /fecaf/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/views.py", line 30, in post
+    Settings = app_config.Settings()
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/tools.py", line 30, in __init__
+    self.configs = self.json.loads(file)
+  File "/usr/lib/python3.10/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+INFO 2023-11-08 15:37:04,952 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/tools.py changed, reloading.
+INFO 2023-11-08 15:37:05,312 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-08 15:37:08,768 connectionpool Starting new HTTP connection (1): 10.0.50.137:80
+ERROR 2023-11-08 15:37:11,892 log Internal Server Error: /fecaf/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 234, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 200, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7ff3961cd600>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='10.0.50.137', port=80): Max retries exceeded with url: /test (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff3961cd600>: Failed to establish a new connection: [Errno 113] No route to host'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/views.py", line 48, in post
+    cmd = Integrations.get(route_func[t[1]][t[0]])
+  File "/home/baia-13/Documentos/IOTAPI/Main_app/tools.py", line 21, in get
+    response = self.request.get(route)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 544, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 657, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.0.50.137', port=80): Max retries exceeded with url: /test (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff3961cd600>: Failed to establish a new connection: [Errno 113] No route to host'))
+INFO 2023-11-08 15:37:55,888 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/views.py changed, reloading.
+INFO 2023-11-08 15:37:56,241 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 15:38:15,967 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/views.py changed, reloading.
+INFO 2023-11-08 15:38:16,341 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 15:39:02,513 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/views.py changed, reloading.
+INFO 2023-11-08 15:39:02,851 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 15:54:20,657 autoreload Watching for file changes with StatReloader
+INFO 2023-11-08 16:14:00,279 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/tools.py changed, reloading.
+INFO 2023-11-08 16:14:00,644 autoreload Watching for file changes with StatReloader

@@ -6,6 +6,7 @@ class MainAppConfig(AppConfig):
     name = 'Main_app'
 
     def ready(self):
-        from .tools import Integrations, Metrics
+        from .tools import Integrations, Metrics, Settings
         self.Integrations = Integrations
         self.Metrics = Metrics
+        self.Settings = Settings
