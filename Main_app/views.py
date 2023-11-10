@@ -40,10 +40,20 @@ class IndexView(APIView):
                 "OFF":"/desligar-lamp-termica",
                 "method":"get",
             },
-            "fan":{
-                "ON":"A",
-                "OFF":"B",
-                "method":"post"
+            "lampUV":{
+                "ON":"/ligar-lamp-uv",
+                "OFF":"/desligar-lamp-uv",
+                "method":"get",
+            },
+            "bomba":{
+                "ON":"/ligar-bomba",
+                "OFF":"/desligar-bomba",
+                "method":"get",
+            },
+            "fans":{
+                "ON":"/ligar-fans",
+                "OFF":"/desligar-fans",
+                "method":"get"
             }
         }
 

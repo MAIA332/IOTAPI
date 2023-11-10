@@ -681,3 +681,35 @@ DEBUG 2023-11-08 19:08:39,889 connectionpool Starting new HTTP connection (1): 1
 DEBUG 2023-11-08 19:08:39,991 connectionpool http://10.0.30.215:80 "POST /test?A HTTP/1.1" 200 0
 INFO 2023-11-08 19:28:38,507 autoreload /home/baia-13/Documentos/IOTAPI/Main_app/views.py changed, reloading.
 INFO 2023-11-08 19:28:38,863 autoreload Watching for file changes with StatReloader
+INFO 2023-11-10 20:33:24,982 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-10 20:34:37,054 log Not Found: /favicon.ico
+WARNING 2023-11-10 20:40:13,531 log Not Found: /favicon.ico
+WARNING 2023-11-10 20:40:26,258 log Not Found: /favicon.ico
+ERROR 2023-11-10 20:42:01,341 log Internal Server Error: /fecaf/
+Traceback (most recent call last):
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\IOTAPI\ambiente_execucao\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\IOTAPI\Main_app\views.py", line 61, in post
+    data = {"params": route_func[t[1]][t[0]]}
+                      ~~~~~~~~~~^^^^^^
+KeyError: 'fan'

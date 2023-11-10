@@ -49,3 +49,11 @@
     }
 
 }
+
+@media (min-width: 1024px) {
+    
+    .section .text-info{
+        margin: -18% 0 0 0;
+    }
+
+}
