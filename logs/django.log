@@ -713,3 +713,4 @@ Traceback (most recent call last):
     data = {"params": route_func[t[1]][t[0]]}
                       ~~~~~~~~~~^^^^^^
 KeyError: 'fan'
+INFO 2023-11-10 21:36:40,557 autoreload Watching for file changes with StatReloader

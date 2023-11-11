@@ -38,29 +38,25 @@ Em *Main_app* > *views.py*, alterar o IP do modulo de comunicação (ESP32)
 
 ## Home page:
 
-![image](https://github.com/MAIA332/IOTAPI/assets/67965680/4e94d288-aa9d-4973-9a78-0ca688452d2c)
+![image](github/painel.png)
 
 ## Painel de controle (BETA)
 
-![image](https://github.com/MAIA332/IOTAPI/assets/67965680/4c022fc5-1acb-4a13-9b3f-5078ccaac4f7)
-
-
-![image](https://github.com/MAIA332/IOTAPI/assets/67965680/65f6354c-be0d-4c3c-8a85-e915cf542b8b)
-
+![image](github/control.png)
 
 
 ## Rodapé:
 
-![image](https://github.com/MAIA332/IOTAPI/assets/67965680/c456497e-2a52-47a3-a51c-5fca7c8c2cec)
+![image](github/rodape.png)
 
 ## Pagina de documentação:
 
-![image](https://github.com/MAIA332/IOTAPI/assets/67965680/7483ecae-9ac2-47fd-a943-c195e63ee3c8)
-![image](https://github.com/MAIA332/IOTAPI/assets/67965680/22d3fef5-457e-4428-97c5-e4ddb40052ea)
+![image](github/docs1.png)
+![image](github/docs2.png)
 
 ## Pagina de logs:
 
-![image](https://github.com/MAIA332/IOTAPI/assets/67965680/1b7af48d-24e1-4cc3-864a-0784c2f76d93)
+![image](github/logs.png)
 
 
 
