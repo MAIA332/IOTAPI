@@ -8,7 +8,7 @@ O seguinte projeto tem como objetivo a criação de um app de integração para 
 
 O projeto consiste em uma estufa, para cultivo de plantas no geral, especialmente hortaliças, os processos deste projeto devem ser controlados de maneira automática, desde os parâmetros do ambiente até processos como a irrigação.
 
-Atualmente o projeto conta com a estruturação física e modelagem eletrônica do mesmo, bem como os scripts dos microcontroladores estão disponíveis para validação através do repositório: https://github.com/MAIA332/ESP32
+Atualmente o projeto conta com a estruturação física e modelagem eletrônica do mesmo, bem como os scripts dos microcontroladores estão disponíveis para validação através do repositório: https://github.com/MAIA332/Smart-greenhouse
 
 # Utilização
 
